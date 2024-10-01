@@ -1,0 +1,7 @@
+name: L1_Tagger
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+    - h5py
+    - qkeras
