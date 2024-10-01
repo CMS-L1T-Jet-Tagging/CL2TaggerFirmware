@@ -1,0 +1,895 @@
+---
+MainSourceFile:  /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          786282
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1014082
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1014550
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1015019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1298533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1672653
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          1673028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2338694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2339081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2339416
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2339639
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2339734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2340098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2340180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2340523
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2340976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2341021
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2341430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2341643
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2369511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2369764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2370125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2370941
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2371602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2372736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2373098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2374001
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2374520
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2375360
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2375630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2376154
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2376388
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2376748
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2377677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2377794
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2377848
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2378429
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2378916
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2379057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2380022
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2380659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2381495
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2381837
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2382295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2382749
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2383136
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2383531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2384197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2384771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2385437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2385991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2386623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2387449
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2388067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2388678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2389067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2389463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2391539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2391679
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2391944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2392138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2392231
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2392557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2392667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2393633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2393719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2394395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2395327
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_2:  '
+    FileOffset:      190
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2395465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_3:  '
+    FileOffset:      195
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2395615
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_4:  '
+    FileOffset:      199
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2395739
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2401580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2401864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2405077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2405219
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2405423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2435212
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2435869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2449255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2451126
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2455899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2456098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_1:  '
+    FileOffset:      96
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2457989
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_2:  '
+    FileOffset:      98
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2458046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_103_3:  '
+    FileOffset:      103
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2458271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_1:  '
+    FileOffset:      131
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2459590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_2:  '
+    FileOffset:      134
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2459733
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2461935
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_2:  '
+    FileOffset:      189
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2461992
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_3:  '
+    FileOffset:      191
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2462086
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_4:  '
+    FileOffset:      198
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2462345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_5:  '
+    FileOffset:      200
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2462421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_241_1:  '
+    FileOffset:      241
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2464796
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_241_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_2:  '
+    FileOffset:      243
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2464853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2464947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_4:  '
+    FileOffset:      251
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2465203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_5:  '
+    FileOffset:      253
+    FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2465279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_1:  '
+    FileOffset:      64
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2469259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /data/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp
+        Offset:          2469463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+...

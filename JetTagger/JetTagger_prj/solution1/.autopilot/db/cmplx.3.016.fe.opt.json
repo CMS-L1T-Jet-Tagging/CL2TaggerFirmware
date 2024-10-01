@@ -1,0 +1,324 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "8 16 13 2 17 10 7 5 21 3 19 12 6 14 23 15",
+    "file": "JetTagger.cpp",
+    "fileloc": 7,
+    "instructions": 3168,
+    "name": "JetTagger",
+    "total_instructions": 327989
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_common.h",
+    "fileloc": 36,
+    "instructions": 16,
+    "name": "reduce<ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, 8, nnet::Op_max<ap_fixed<31, 13, AP_TRN, AP_WRAP, 0> > >",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 16
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 28,
+    "instructions": 1538,
+    "loads": {
+      "L": 512
+    },
+    "name": "linear<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<18, 9, AP_RND_CONV, AP_SAT, 0>, linear_config9>",
+    "stores": {
+      "L": 512
+    },
+    "total_instructions": 1538
+  },
+  "11": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "nnet_common.h",
+    "fileloc": 36,
+    "instructions": 81,
+    "name": "reduce<ap_fixed<18, 8, AP_RND, AP_SAT, 0>, 4, nnet::Op_add<ap_fixed<18, 8, AP_RND, AP_SAT, 0> > >",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 81
+  },
+  "12": {
+    "basicblocks": 225,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 1698,
+    "loads": {
+      "L": 32
+    },
+    "name": "relu<ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, relu_config18>",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 1698
+  },
+  "13": {
+    "basicblocks": 3585,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 26626,
+    "loads": {
+      "L": 512
+    },
+    "name": "relu<ap_fixed<48, 22, AP_TRN, AP_WRAP, 0>, ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, relu_config5>",
+    "stores": {
+      "L": 1024
+    },
+    "total_instructions": 26626
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 3195,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense_latency<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, config20>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 3195
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "9 1 11 11",
+    "file": "nnet_activation.h",
+    "fileloc": 216,
+    "instructions": 301,
+    "loads": {
+      "G": 1,
+      "L": 19
+    },
+    "name": "softmax_stable<ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, softmax_config24>",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 230880
+  },
+  "16": {
+    "basicblocks": 1,
+    "calls": "22",
+    "file": "nnet_conv1d.h",
+    "fileloc": 49,
+    "instructions": 322,
+    "loads": {
+      "L": 320
+    },
+    "name": "pointwise_conv_1d_cl<ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, ap_fixed<48, 22, AP_TRN, AP_WRAP, 0>, config28>",
+    "total_instructions": 4670
+  },
+  "17": {
+    "basicblocks": 3585,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 27138,
+    "loads": {
+      "L": 512
+    },
+    "name": "relu<ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, relu_config8>",
+    "stores": {
+      "L": 1024
+    },
+    "total_instructions": 27138
+  },
+  "18": {
+    "basicblocks": 38,
+    "calls": "",
+    "file": "nnet_conv1d_latency.h",
+    "fileloc": 11,
+    "instructions": 7146,
+    "name": "conv_1d_latency_cl<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, config29>",
+    "stores": {
+      "L": 512
+    },
+    "total_instructions": 7146
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 2238,
+    "loads": {
+      "L": 14
+    },
+    "name": "dense_latency<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, config16>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 2238
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "18",
+    "file": "nnet_conv1d.h",
+    "fileloc": 49,
+    "instructions": 514,
+    "loads": {
+      "L": 512
+    },
+    "name": "pointwise_conv_1d_cl<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, config29>",
+    "total_instructions": 7660
+  },
+  "20": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 133,
+    "instructions": 66,
+    "name": "softmax_real_val_from_idx<ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, softmax_config24>",
+    "total_instructions": 66
+  },
+  "21": {
+    "basicblocks": 225,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 1698,
+    "loads": {
+      "L": 32
+    },
+    "name": "relu<ap_fixed<31, 15, AP_TRN, AP_WRAP, 0>, ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, relu_config13>",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 1698
+  },
+  "22": {
+    "basicblocks": 38,
+    "calls": "",
+    "file": "nnet_conv1d_latency.h",
+    "fileloc": 11,
+    "instructions": 4348,
+    "name": "conv_1d_latency_cl<ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, ap_fixed<48, 22, AP_TRN, AP_WRAP, 0>, config28>",
+    "stores": {
+      "L": 512
+    },
+    "total_instructions": 4348
+  },
+  "23": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 486,
+    "loads": {
+      "L": 32
+    },
+    "name": "dense_latency<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, config22>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 486
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 3333,
+    "loads": {
+      "L": 14
+    },
+    "name": "dense_latency<ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, config14>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 3333
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 131,
+    "instructions": 2,
+    "name": "exp_fcn_float",
+    "total_instructions": 2
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 4341,
+    "loads": {
+      "L": 26
+    },
+    "name": "dense_latency<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<31, 15, AP_TRN, AP_WRAP, 0>, config11>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 4341
+  },
+  "6": {
+    "basicblocks": 225,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 1698,
+    "loads": {
+      "L": 32
+    },
+    "name": "relu<ap_fixed<24, 9, AP_TRN, AP_WRAP, 0>, ap_ufixed<9, 0, AP_RND_CONV, AP_SAT, 0>, relu_config19>",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 1698
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_pooling.h",
+    "fileloc": 120,
+    "instructions": 5602,
+    "loads": {
+      "L": 512
+    },
+    "name": "global_pooling1d_cl<ap_fixed<18, 9, AP_RND_CONV, AP_SAT, 0>, ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, config10>",
+    "stores": {
+      "L": 32
+    },
+    "total_instructions": 5602
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_batchnorm.h",
+    "fileloc": 31,
+    "instructions": 2020,
+    "loads": {
+      "L": 1
+    },
+    "name": "normalize<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, ap_fixed<33, 13, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 336
+    },
+    "total_instructions": 2020
+  },
+  "9": {
+    "basicblocks": 29697,
+    "calls": "20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4 20 4",
+    "file": "nnet_activation.h",
+    "fileloc": 149,
+    "instructions": 160769,
+    "name": "init_exp_table<ap_fixed<31, 13, AP_TRN, AP_WRAP, 0>, softmax_config24>",
+    "stores": {
+      "L": 1024
+    },
+    "total_instructions": 230401
+  }
+}

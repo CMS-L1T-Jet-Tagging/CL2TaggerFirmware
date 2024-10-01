@@ -1,0 +1,46 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_24_9_5_3_0_config29_s'" level="0">
+<item name = "Date">Tue Oct  1 08:16:00 2024
+</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
+<item name = "Project">JetTagger_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu9p-flga2104-2L-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">2.80 ns, 1.942 ns, 0.76 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">23, 24, 64.400 ns, 67.200 ns, 23, 24, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_24_9_5_3_0_config29_s_fu_6152">conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_24_9_5_3_0_config29_s, 20, 21, 56.000 ns, 58.800 ns, 16, 16, loop rewind stp(delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

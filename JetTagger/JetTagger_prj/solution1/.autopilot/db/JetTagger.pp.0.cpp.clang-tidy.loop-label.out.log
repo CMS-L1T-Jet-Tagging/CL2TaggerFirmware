@@ -1,0 +1,495 @@
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:28369:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:28369:7: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29343:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29343:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29357:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29357:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29371:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:29371:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:30988:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:30988:7: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:32971:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:32971:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:32984:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:32984:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55941:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55941:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55951:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55951:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55962:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55962:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55969:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55969:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55971:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55971:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55983:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55983:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55985:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:55985:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56000:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56000:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56020:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56020:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56021:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56021:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56036:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56036:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56043:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56043:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56314:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56314:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56326:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56326:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56340:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56340:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56367:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56367:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56397:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56397:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56434:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56434:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56445:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56445:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56478:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56478:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56492:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56492:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56526:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56526:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56535:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56535:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56549:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56549:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56556:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56556:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56569:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56569:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56606:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56606:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56611:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56611:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56612:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56612:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56629:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56629:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56642:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56642:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56650:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56650:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56685:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56685:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56715:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56715:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56742:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56742:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56756:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56756:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56772:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56772:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56790:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56790:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56807:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56807:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56824:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56824:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56854:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56854:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56873:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56873:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56903:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56903:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56922:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56922:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56952:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56952:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56979:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:56979:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57008:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57008:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57029:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57029:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57047:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57047:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57067:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57067:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57163:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57163:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57170:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57170:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57179:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57179:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57188:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57188:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57192:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57192:17: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57203:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57203:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57207:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57207:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57231:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57231:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57235:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57235:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57254:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57254:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57277:2: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / data_T::size; i++) {
+ ^~~
+ VITIS_LOOP_187_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57277:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57280:9: warning: Added loop label VITIS_LOOP_190_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_190_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57280:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57285:5: warning: Added loop label VITIS_LOOP_195_3:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_195_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57285:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57289:9: warning: Added loop label VITIS_LOOP_199_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_199_4: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57289:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57503:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57503:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57512:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57512:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57618:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57618:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57623:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57623:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57631:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:57631:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:58706:5: warning: Added loop label VITIS_LOOP_88_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_88_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:58706:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:58726:5: warning: Added loop label VITIS_LOOP_108_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_108_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:58726:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59146:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59146:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59206:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59206:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59363:5: warning: Added loop label VITIS_LOOP_13_1:   [xilinx-label-all-loops]
+    for (int i = 1; i < N; i++) {
+    ^~~
+    VITIS_LOOP_13_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59363:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59372:5: warning: Added loop label VITIS_LOOP_22_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_22_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59372:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59446:5: warning: Added loop label VITIS_LOOP_96_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_96_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59446:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59448:9: warning: Added loop label VITIS_LOOP_98_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_width; ii += CONFIG_T::stride_width) {
+        ^~~
+        VITIS_LOOP_98_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59448:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59453:2: warning: Added loop label VITIS_LOOP_103_3:   [xilinx-label-all-loops]
+ for (int jj = 0; jj < CONFIG_T::pool_width; jj++) {
+ ^~~
+ VITIS_LOOP_103_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59453:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59481:2: warning: Added loop label VITIS_LOOP_131_1:   [xilinx-label-all-loops]
+ for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+ ^~~
+ VITIS_LOOP_131_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59481:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59484:2: warning: Added loop label VITIS_LOOP_134_2:   [xilinx-label-all-loops]
+ for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+ ^~~
+ VITIS_LOOP_134_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59484:2: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59537:5: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_187_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59537:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59539:9: warning: Added loop label VITIS_LOOP_189_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_height; ii += CONFIG_T::stride_height) {
+        ^~~
+        VITIS_LOOP_189_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59539:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59541:13: warning: Added loop label VITIS_LOOP_191_3:   [xilinx-label-all-loops]
+            for (int jj = 0; jj < restricted_padded_width; jj += CONFIG_T::stride_width) {
+            ^~~
+            VITIS_LOOP_191_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59541:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59548:17: warning: Added loop label VITIS_LOOP_198_4:   [xilinx-label-all-loops]
+                for (int kk = 0; kk < CONFIG_T::stride_height; kk++) {
+                ^~~
+                VITIS_LOOP_198_4: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59548:17: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59550:21: warning: Added loop label VITIS_LOOP_200_5:   [xilinx-label-all-loops]
+                    for (int ll = 0; ll < CONFIG_T::stride_width; ll++) {
+                    ^~~
+                    VITIS_LOOP_200_5: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59550:21: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59591:5: warning: Added loop label VITIS_LOOP_241_1:   [xilinx-label-all-loops]
+    for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+    ^~~
+    VITIS_LOOP_241_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59591:5: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59593:9: warning: Added loop label VITIS_LOOP_243_2:   [xilinx-label-all-loops]
+        for (int ii = 0; ii < restricted_padded_height; ii += CONFIG_T::stride_height) {
+        ^~~
+        VITIS_LOOP_243_2: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59593:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59595:13: warning: Added loop label VITIS_LOOP_245_3:   [xilinx-label-all-loops]
+            for (int jj = 0; jj < restricted_padded_width; jj += CONFIG_T::stride_width) {
+            ^~~
+            VITIS_LOOP_245_3: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59595:13: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59601:17: warning: Added loop label VITIS_LOOP_251_4:   [xilinx-label-all-loops]
+                for (int kk = 0; kk < CONFIG_T::stride_height; kk++) {
+                ^~~
+                VITIS_LOOP_251_4: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59601:17: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59603:21: warning: Added loop label VITIS_LOOP_253_5:   [xilinx-label-all-loops]
+                    for (int ll = 0; ll < CONFIG_T::stride_width; ll++) {
+                    ^~~
+                    VITIS_LOOP_253_5: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59603:21: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59696:9: warning: Added loop label VITIS_LOOP_64_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < __SHIFT_DEPTH__; ++i)
+        ^~~
+        VITIS_LOOP_64_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59696:9: note: FIX-IT applied suggested code changes
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59703:9: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < __SHIFT_DEPTH__; ++i)
+        ^~~
+        VITIS_LOOP_71_1: 
+/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp:59703:9: note: FIX-IT applied suggested code changes

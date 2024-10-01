@@ -1,0 +1,37 @@
+<dict>
+  <key>main-file</key>
+  <string>/data/dhoang/CL2TaggerFirmware/JetTagger/JetTagger_prj/solution1/.autopilot/db/JetTagger.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>firmware/nnet_utils/nnet_pooling.h</string>
+      <key>line</key>
+      <integer>128</integer>
+      <key>column</key>
+      <integer>43</integer>
+      <key>message</key>
+      <string>ALLOCATION pragma is ignored, because Instances value is not valid function pointer expression </string>
+      <key>ID</key>
+      <integer>5573</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>note</string>
+      <key>filename</key>
+      <string>firmware/JetTagger.cpp</string>
+      <key>line</key>
+      <integer>73</integer>
+      <key>column</key>
+      <integer>8</integer>
+      <key>message</key>
+      <string>in instantiation of function template specialization &apos;nnet::global_pooling1d_cl&lt;ap_fixed&lt;18, 9, AP_RND_CONV, AP_SAT, 0&gt;, ap_fixed&lt;16, 6, AP_TRN, AP_WRAP, 0&gt;, config10&gt;&apos; requested here</string>
+      <key>ID</key>
+      <integer>4235</integer>
+    </dict>
+  </array>
+</dict>
