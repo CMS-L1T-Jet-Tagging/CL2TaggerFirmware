@@ -2,9 +2,6 @@ import hls4ml
 import os, sys
 from argparse import ArgumentParser
 from qkeras.utils import load_qmodel
-
-#Vivado path
-os.environ['PATH'] += os.pathsep + '/data/Xilinx/Vivado/2023.2/bin'
 #----------------------------------------------
 
 def convert(model, outname):
