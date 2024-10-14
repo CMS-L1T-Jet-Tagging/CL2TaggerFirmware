@@ -1,15 +1,10 @@
 name: L1_Tagger
 dependencies:
-  - python>=3.10
+  - python=3.8
+  - tensorflow
+  - keras
   - pip
   - pip:
     - h5py
     - pyparsing
-    - tensorflow
-    - keras
-    - scikit-learn==1.3.2
-    - pandas==2.0.3
-    - uproot4==4.0.0
-    - xxhash
-    - pyarrow==17.0.0
-    - qkeras==0.9.0
+    - qkeras

@@ -17,7 +17,7 @@
         <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
     </libraryList>
     <clockList>
-        <clock default="false" name="default" uncertainty="27%" period="2.8"/>
+        <clock default="false" name="default" uncertainty="12.5%" period="2.8"/>
     </clockList>
 </AutoPilot:solution>
 

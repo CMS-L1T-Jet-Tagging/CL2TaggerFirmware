@@ -2,6 +2,14 @@ import hls4ml
 import os, sys
 from argparse import ArgumentParser
 from qkeras.utils import load_qmodel
+
+hls4ml_abspath = os.path.abspath('hls4ml')
+
+#Add editable hls4ml installation
+os.system(f'export PYTHONPATH=$PYTHONPATH:{hls4ml_abspath}')
+
+print(f'export PYTHONPATH=$PYTHONPATH:{hls4ml_abspath}')
+
 #----------------------------------------------
 
 def convert(model, outname):

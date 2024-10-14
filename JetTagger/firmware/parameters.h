@@ -22,10 +22,10 @@
 // hls-fpga-machine-learning insert weights
 #include "weights/s2.h"
 #include "weights/b2.h"
-#include "weights/w28.h"
-#include "weights/b28.h"
-#include "weights/w29.h"
-#include "weights/b29.h"
+#include "weights/w26.h"
+#include "weights/b26.h"
+#include "weights/w27.h"
+#include "weights/b27.h"
 #include "weights/w11.h"
 #include "weights/b11.h"
 #include "weights/w14.h"
@@ -36,7 +36,6 @@
 #include "weights/b20.h"
 #include "weights/w22.h"
 #include "weights/b22.h"
-
 
 // hls-fpga-machine-learning insert layer-config
 // batchnorm_inputs
@@ -55,7 +54,7 @@ struct config2 : nnet::batchnorm_config {
 };
 
 // qDense_phi_1
-struct config28_mult : nnet::dense_config {
+struct config26_mult : nnet::dense_config {
     static const unsigned n_in = 21;
     static const unsigned n_out = 32;
     static const unsigned reuse_factor = 1;
@@ -69,7 +68,7 @@ struct config28_mult : nnet::dense_config {
     using product = nnet::product::mult<x_T, y_T>;
 };
 
-struct config28 : nnet::conv1d_config {
+struct config26 : nnet::conv1d_config {
     static const unsigned pad_left = 0;
     static const unsigned pad_right = 0;
     static const unsigned in_width = 16;
@@ -92,15 +91,15 @@ struct config28 : nnet::conv1d_config {
     static const unsigned n_partitions = 16;
     static const unsigned n_pixels = out_width / n_partitions;
     template<class data_T, class CONFIG_T>
-    using fill_buffer = nnet::fill_buffer_28<data_T, CONFIG_T>;
+    using fill_buffer = nnet::fill_buffer_26<data_T, CONFIG_T>;
     typedef model_default_t accum_t;
     typedef qdense_phi_1_bias_t bias_t;
     typedef qdense_phi_1_weight_t weight_t;
-    typedef config28_mult mult_config;
+    typedef config26_mult mult_config;
     template<unsigned K, unsigned S, unsigned W>
     using scale_index = nnet::scale_index_unscaled<K, S, W>;
 };
-const ap_uint<config28::filt_width> config28::pixels[] = {0};
+const ap_uint<config26::filt_width> config26::pixels[] = {0};
 
 // qActivation_phi_1
 struct relu_config5 : nnet::activ_config {
@@ -112,7 +111,7 @@ struct relu_config5 : nnet::activ_config {
 };
 
 // qDense_phi_2
-struct config29_mult : nnet::dense_config {
+struct config27_mult : nnet::dense_config {
     static const unsigned n_in = 32;
     static const unsigned n_out = 32;
     static const unsigned reuse_factor = 1;
@@ -126,7 +125,7 @@ struct config29_mult : nnet::dense_config {
     using product = nnet::product::mult<x_T, y_T>;
 };
 
-struct config29 : nnet::conv1d_config {
+struct config27 : nnet::conv1d_config {
     static const unsigned pad_left = 0;
     static const unsigned pad_right = 0;
     static const unsigned in_width = 16;
@@ -149,15 +148,15 @@ struct config29 : nnet::conv1d_config {
     static const unsigned n_partitions = 16;
     static const unsigned n_pixels = out_width / n_partitions;
     template<class data_T, class CONFIG_T>
-    using fill_buffer = nnet::fill_buffer_29<data_T, CONFIG_T>;
+    using fill_buffer = nnet::fill_buffer_27<data_T, CONFIG_T>;
     typedef model_default_t accum_t;
     typedef qdense_phi_2_bias_t bias_t;
     typedef qdense_phi_2_weight_t weight_t;
-    typedef config29_mult mult_config;
+    typedef config27_mult mult_config;
     template<unsigned K, unsigned S, unsigned W>
     using scale_index = nnet::scale_index_unscaled<K, S, W>;
 };
-const ap_uint<config29::filt_width> config29::pixels[] = {0};
+const ap_uint<config27::filt_width> config27::pixels[] = {0};
 
 // qActivation_phi_2
 struct relu_config8 : nnet::activ_config {
@@ -319,7 +318,6 @@ struct softmax_config24 : nnet::activ_config {
     typedef output_class_exp_table_t exp_table_t;
     typedef output_class_inv_table_t inv_table_t;
 };
-
 
 
 #endif

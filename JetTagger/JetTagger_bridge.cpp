@@ -56,12 +56,12 @@ void JetTagger_float(
     input_t inputs_ap[N_INPUT_1_1*N_INPUT_2_1];
     nnet::convert_data<float, input_t, N_INPUT_1_1*N_INPUT_2_1>(inputs, inputs_ap);
 
-    qDense_out_reg_result_t layer22_out_ap[N_LAYER_22];
+    layer22_t layer22_out_ap[N_LAYER_22];
     layer24_t layer24_out_ap[N_LAYER_20];
 
     JetTagger(inputs_ap,layer22_out_ap,layer24_out_ap);
 
-    nnet::convert_data<qDense_out_reg_result_t, float, N_LAYER_22>(layer22_out_ap, layer22_out);
+    nnet::convert_data<layer22_t, float, N_LAYER_22>(layer22_out_ap, layer22_out);
     nnet::convert_data<layer24_t, float, N_LAYER_20>(layer24_out_ap, layer24_out);
 }
 
@@ -69,16 +69,15 @@ void JetTagger_double(
     double inputs[N_INPUT_1_1*N_INPUT_2_1],
     double layer22_out[N_LAYER_22], double layer24_out[N_LAYER_20]
 ) {
-
     input_t inputs_ap[N_INPUT_1_1*N_INPUT_2_1];
     nnet::convert_data<double, input_t, N_INPUT_1_1*N_INPUT_2_1>(inputs, inputs_ap);
 
-    qDense_out_reg_result_t layer22_out_ap[N_LAYER_22];
+    layer22_t layer22_out_ap[N_LAYER_22];
     layer24_t layer24_out_ap[N_LAYER_20];
 
     JetTagger(inputs_ap,layer22_out_ap,layer24_out_ap);
 
-    nnet::convert_data<qDense_out_reg_result_t, double, N_LAYER_22>(layer22_out_ap, layer22_out);
+    nnet::convert_data<layer22_t, double, N_LAYER_22>(layer22_out_ap, layer22_out);
     nnet::convert_data<layer24_t, double, N_LAYER_20>(layer24_out_ap, layer24_out);
 }
 }
