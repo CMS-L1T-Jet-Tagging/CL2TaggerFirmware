@@ -1,0 +1,1500 @@
+{
+  "Top": "JetTaggerNN",
+  "RtlTop": "JetTaggerNN",
+  "RtlPrefix": "",
+  "RtlSubPrefix": "JetTaggerNN_",
+  "SourceLanguage": "cpp",
+  "HostMachineBits": "64",
+  "FunctionProtocol": "ap_ctrl_hs",
+  "ResetStyle": "control",
+  "Target": {
+    "Family": "virtexuplus",
+    "Device": "xcvu9p",
+    "Package": "-flga2104",
+    "Speed": "-2L-e",
+    "Triple": "fpga64-xilinx-none"
+  },
+  "Args": {
+    "inputs": {
+      "index": "0",
+      "direction": "in",
+      "srcType": "ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "16",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "inputs",
+          "name": "inputs",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "port",
+          "interface": "inputs_ap_vld",
+          "name": "inputs_ap_vld",
+          "usage": "control",
+          "direction": "in"
+        }
+      ]
+    },
+    "layer22_out": {
+      "index": "1",
+      "direction": "out",
+      "srcType": "ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "16",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "layer22_out",
+          "name": "layer22_out",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer22_out_ap_vld",
+          "name": "layer22_out_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "layer24_out": {
+      "index": "2",
+      "direction": "out",
+      "srcType": "ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "16",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "layer24_out_0",
+          "name": "layer24_out_0",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_0_ap_vld",
+          "name": "layer24_out_0_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_1",
+          "name": "layer24_out_1",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_1_ap_vld",
+          "name": "layer24_out_1_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_2",
+          "name": "layer24_out_2",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_2_ap_vld",
+          "name": "layer24_out_2_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_3",
+          "name": "layer24_out_3",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_3_ap_vld",
+          "name": "layer24_out_3_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_4",
+          "name": "layer24_out_4",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_4_ap_vld",
+          "name": "layer24_out_4_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_5",
+          "name": "layer24_out_5",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_5_ap_vld",
+          "name": "layer24_out_5_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_6",
+          "name": "layer24_out_6",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_6_ap_vld",
+          "name": "layer24_out_6_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_7",
+          "name": "layer24_out_7",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "layer24_out_7_ap_vld",
+          "name": "layer24_out_7_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    }
+  },
+  "HlsSolution": {
+    "FlowTarget": "vivado",
+    "ConfigTcl": [
+      "config_compile -name_max_length=80",
+      "config_schedule -enable_dsp_full_reg=0"
+    ],
+    "DirectiveTcl": ["set_directive_top JetTaggerNN -name JetTaggerNN"],
+    "ProfileOption": "0",
+    "ProfileType": "none",
+    "KernelName": "JetTaggerNN"
+  },
+  "ClockInfo": {
+    "ClockName": "ap_clk",
+    "ClockPeriod": "2.8",
+    "Uncertainty": "0.35",
+    "IsCombinational": "0",
+    "II": "23 ~ 24",
+    "Latency": "78"
+  },
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 2.800 [get_ports ap_clk]"]},
+  "Ipx": {
+    "Vendor": "xilinx.com",
+    "Library": "hls",
+    "Name": "JetTaggerNN",
+    "Version": "1.0",
+    "DisplayName": "Jettaggernn",
+    "Revision": "2113777464",
+    "Description": "An IP generated by Vitis HLS",
+    "Taxonomy": "\/VITIS_HLS_IP",
+    "AutoFamilySupport": "",
+    "ZipFile": "xilinx_com_hls_JetTaggerNN_1_0.zip"
+  },
+  "Files": {
+    "CSource": ["..\/..\/firmware\/JetTaggerNN.cpp"],
+    "Vhdl": [
+      "impl\/vhdl\/JetTaggerNN_conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_fifo_w9_d2_S.vhd",
+      "impl\/vhdl\/JetTaggerNN_fifo_w16_d2_S.vhd",
+      "impl\/vhdl\/JetTaggerNN_flow_control_loop_pipe_no_ap_cont.vhd",
+      "impl\/vhdl\/JetTaggerNN_frp_fifoout.vhd",
+      "impl\/vhdl\/JetTaggerNN_frp_pipeline_valid.vhd",
+      "impl\/vhdl\/JetTaggerNN_global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_5ns_13_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_5s_14_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_6ns_14_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_6s_15_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_7ns_15_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_7s_16_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_8ns_16_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_8s_17_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_9ns_17_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_9s_18_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_10ns_18_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_10s_19_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_11ns_19_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_11s_20_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_12ns_20_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_12s_21_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_9ns_13s_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_5ns_21_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_5s_21_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_6ns_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_6s_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_7ns_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_7s_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_8ns_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_8s_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_9ns_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_9ns_24_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_9s_22_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_10ns_25_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_12ns_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_13ns_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_13s_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_14ns_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_16s_15ns_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_mul_18s_17ns_26_1_1.vhd",
+      "impl\/vhdl\/JetTaggerNN_normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s.vhd",
+      "impl\/vhdl\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_exp_table_ROM_bkb.vhd",
+      "impl\/vhdl\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_invert_table_Rcud.vhd",
+      "impl\/vhdl\/JetTaggerNN.vhd"
+    ],
+    "Verilog": [
+      "impl\/verilog\/JetTaggerNN_conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s.v",
+      "impl\/verilog\/JetTaggerNN_conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s.v",
+      "impl\/verilog\/JetTaggerNN_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s.v",
+      "impl\/verilog\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s.v",
+      "impl\/verilog\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s.v",
+      "impl\/verilog\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s.v",
+      "impl\/verilog\/JetTaggerNN_dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s.v",
+      "impl\/verilog\/JetTaggerNN_fifo_w9_d2_S.v",
+      "impl\/verilog\/JetTaggerNN_fifo_w16_d2_S.v",
+      "impl\/verilog\/JetTaggerNN_flow_control_loop_pipe_no_ap_cont.v",
+      "impl\/verilog\/JetTaggerNN_frp_fifoout.v",
+      "impl\/verilog\/JetTaggerNN_frp_pipeline_valid.v",
+      "impl\/verilog\/JetTaggerNN_global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s.v",
+      "impl\/verilog\/JetTaggerNN_linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_5ns_13_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_5s_14_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_6ns_14_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_6s_15_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_7ns_15_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_7s_16_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_8ns_16_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_8s_17_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_9ns_17_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_9s_18_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_10ns_18_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_10s_19_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_11ns_19_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_11s_20_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_12ns_20_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_12s_21_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_9ns_13s_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_5ns_21_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_5s_21_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_6ns_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_6s_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_7ns_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_7s_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_8ns_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_8s_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_9ns_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_9ns_24_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_9s_22_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_10ns_25_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_12ns_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_13ns_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_13s_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_14ns_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_16s_15ns_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_mul_18s_17ns_26_1_1.v",
+      "impl\/verilog\/JetTaggerNN_normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s.v",
+      "impl\/verilog\/JetTaggerNN_pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s.v",
+      "impl\/verilog\/JetTaggerNN_pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s.v",
+      "impl\/verilog\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s.v",
+      "impl\/verilog\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s.v",
+      "impl\/verilog\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s.v",
+      "impl\/verilog\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s.v",
+      "impl\/verilog\/JetTaggerNN_relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s.v",
+      "impl\/verilog\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s.v",
+      "impl\/verilog\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_exp_table_ROM_bkb.dat",
+      "impl\/verilog\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_exp_table_ROM_bkb.v",
+      "impl\/verilog\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_invert_table_Rcud.dat",
+      "impl\/verilog\/JetTaggerNN_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_invert_table_Rcud.v",
+      "impl\/verilog\/JetTaggerNN.v"
+    ],
+    "IpMisc": ["impl\/misc\/logo.png"],
+    "CsynthXml": "syn\/report\/csynth.xml",
+    "DebugDir": ".debug",
+    "KernelXml": ".autopilot\/db\/kernel.internal.xml",
+    "Xo": "",
+    "XoHlsDir": "",
+    "ProtoInst": [".debug\/JetTaggerNN.protoinst"]
+  },
+  "SubcoreInfo": {
+    "HasXpmMemory": false,
+    "HasClockedDsp": false,
+    "Ip": []
+  },
+  "Interfaces": {
+    "inputs": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "slave",
+      "dataWidth": "5376",
+      "portMap": {"inputs": "DATA"},
+      "ports": ["inputs"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "inputs"
+        }]
+    },
+    "layer22_out": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer22_out": "DATA"},
+      "ports": ["layer22_out"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer22_out"
+        }]
+    },
+    "layer24_out_0": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_0": "DATA"},
+      "ports": ["layer24_out_0"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_1": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_1": "DATA"},
+      "ports": ["layer24_out_1"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_2": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_2": "DATA"},
+      "ports": ["layer24_out_2"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_3": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_3": "DATA"},
+      "ports": ["layer24_out_3"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_4": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_4": "DATA"},
+      "ports": ["layer24_out_4"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_5": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_5": "DATA"},
+      "ports": ["layer24_out_5"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_6": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_6": "DATA"},
+      "ports": ["layer24_out_6"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "layer24_out_7": {
+      "type": "data",
+      "busTypeName": "data",
+      "protocol": "ap_vld",
+      "mode": "master",
+      "dataWidth": "16",
+      "portMap": {"layer24_out_7": "DATA"},
+      "ports": ["layer24_out_7"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_vld",
+          "register_option": "0",
+          "argName": "layer24_out"
+        }]
+    },
+    "ap_clk": {
+      "type": "clock",
+      "busTypeName": "clock",
+      "mode": "slave",
+      "busParams": {"ASSOCIATED_RESET": "ap_rst"},
+      "portMap": {"ap_clk": "CLK"},
+      "ports": ["ap_clk"]
+    },
+    "ap_rst": {
+      "type": "reset",
+      "busTypeName": "reset",
+      "mode": "slave",
+      "busParams": {"POLARITY": "ACTIVE_HIGH"},
+      "portMap": {"ap_rst": "RST"},
+      "ports": ["ap_rst"]
+    },
+    "ap_ctrl": {
+      "type": "ap_ctrl",
+      "busTypeName": "acc_handshake",
+      "mode": "slave",
+      "portMap": {
+        "ap_start": "start",
+        "ap_done": "done",
+        "ap_ready": "ready",
+        "ap_idle": "idle"
+      },
+      "ports": [
+        "ap_done",
+        "ap_idle",
+        "ap_ready",
+        "ap_start"
+      ]
+    }
+  },
+  "RtlPorts": {
+    "inputs": {
+      "dir": "in",
+      "width": "5376"
+    },
+    "inputs_ap_vld": {
+      "dir": "in",
+      "width": "1"
+    },
+    "layer22_out": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer22_out_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_0": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_0_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_1": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_1_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_2": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_2_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_3": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_3_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_4": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_4_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_5": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_5_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_6": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_6_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "layer24_out_7": {
+      "dir": "out",
+      "width": "16"
+    },
+    "layer24_out_7_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_clk": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_rst": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_start": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_done": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_ready": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_idle": {
+      "dir": "out",
+      "width": "1"
+    }
+  },
+  "ModuleInfo": {
+    "Hierarchy": {
+      "ModuleName": "JetTaggerNN",
+      "Instances": [
+        {
+          "ModuleName": "normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s",
+          "InstanceName": "normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_U0"
+        },
+        {
+          "ModuleName": "pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s",
+          "InstanceName": "pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_U0",
+          "Instances": [{
+              "ModuleName": "conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s",
+              "InstanceName": "grp_conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s_fu_4616"
+            }]
+        },
+        {
+          "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s",
+          "InstanceName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_U0"
+        },
+        {
+          "ModuleName": "pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s",
+          "InstanceName": "pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_U0",
+          "Instances": [{
+              "ModuleName": "conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s",
+              "InstanceName": "grp_conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s_fu_6152"
+            }]
+        },
+        {
+          "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s",
+          "InstanceName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_U0"
+        },
+        {
+          "ModuleName": "linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s",
+          "InstanceName": "linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_U0"
+        },
+        {
+          "ModuleName": "global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s",
+          "InstanceName": "global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_U0"
+        },
+        {
+          "ModuleName": "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s",
+          "InstanceName": "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_U0"
+        },
+        {
+          "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s",
+          "InstanceName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_U0"
+        },
+        {
+          "ModuleName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s",
+          "InstanceName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_U0"
+        },
+        {
+          "ModuleName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s",
+          "InstanceName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_U0"
+        },
+        {
+          "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s",
+          "InstanceName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_U0"
+        },
+        {
+          "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s",
+          "InstanceName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_U0"
+        },
+        {
+          "ModuleName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s",
+          "InstanceName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_U0"
+        },
+        {
+          "ModuleName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s",
+          "InstanceName": "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_U0"
+        },
+        {
+          "ModuleName": "softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s",
+          "InstanceName": "softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_U0"
+        }
+      ]
+    },
+    "Info": {
+      "normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "1"
+      },
+      "global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "JetTaggerNN": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      }
+    },
+    "Metrics": {
+      "normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "1.940"
+        },
+        "Area": {
+          "DSP": "288",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "4",
+          "FF": "12963",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "15242",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "1",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s": {
+        "Latency": {
+          "LatencyBest": "17",
+          "LatencyAvg": "17",
+          "LatencyWorst": "18",
+          "PipelineII": "16",
+          "PipelineDepth": "",
+          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.420"
+        },
+        "Loops": [{
+            "Name": "PartitionLoop",
+            "TripCount": "16",
+            "Latency": "17",
+            "PipelineII": "1",
+            "PipelineDepth": "3"
+          }],
+        "Area": {
+          "DSP": "119",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "1",
+          "FF": "9377",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "22542",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "1",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s": {
+        "Latency": {
+          "LatencyBest": "20",
+          "LatencyAvg": "20",
+          "LatencyWorst": "21",
+          "PipelineIIMin": "20",
+          "PipelineIIMax": "21",
+          "PipelineII": "20 ~ 21",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.420"
+        },
+        "Area": {
+          "DSP": "119",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "1",
+          "FF": "17575",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "22579",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "1",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.218"
+        },
+        "Area": {
+          "FF": "11267",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "68623",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "5",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s": {
+        "Latency": {
+          "LatencyBest": "19",
+          "LatencyAvg": "19",
+          "LatencyWorst": "20",
+          "PipelineII": "16",
+          "PipelineDepth": "",
+          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.297"
+        },
+        "Loops": [{
+            "Name": "PartitionLoop",
+            "TripCount": "16",
+            "Latency": "19",
+            "PipelineII": "1",
+            "PipelineDepth": "5"
+          }],
+        "Area": {
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "FF": "9085",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "43149",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "3",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s": {
+        "Latency": {
+          "LatencyBest": "22",
+          "LatencyAvg": "22",
+          "LatencyWorst": "23",
+          "PipelineIIMin": "22",
+          "PipelineIIMax": "23",
+          "PipelineII": "22 ~ 23",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.297"
+        },
+        "Area": {
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "FF": "15475",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "43186",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "3",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.218"
+        },
+        "Area": {
+          "FF": "9155",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "55759",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "4",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s": {
+        "Latency": {
+          "LatencyBest": "0",
+          "LatencyAvg": "0",
+          "LatencyWorst": "0",
+          "PipelineII": "1",
+          "PipelineDepth": "1",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "1.225"
+        },
+        "Area": {
+          "FF": "3746",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "3755",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.317"
+        },
+        "Area": {
+          "FF": "10792",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "10164",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.420"
+        },
+        "Area": {
+          "DSP": "178",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "2",
+          "FF": "5955",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "11838",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "1",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.218"
+        },
+        "Area": {
+          "FF": "437",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "2015",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.305"
+        },
+        "Area": {
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "FF": "2641",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "14270",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "1",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.331"
+        },
+        "Area": {
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "FF": "1727",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "9665",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.218"
+        },
+        "Area": {
+          "FF": "443",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "2693",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s": {
+        "Latency": {
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.218"
+        },
+        "Area": {
+          "FF": "289",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "1755",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.435"
+        },
+        "Area": {
+          "DSP": "73",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "1",
+          "FF": "2138",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "7681",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "1",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.205"
+        },
+        "Area": {
+          "DSP": "1",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "~0",
+          "FF": "250",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "827",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s": {
+        "Latency": {
+          "LatencyBest": "7",
+          "LatencyAvg": "7",
+          "LatencyWorst": "7",
+          "PipelineII": "1",
+          "PipelineDepth": "8",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.300"
+        },
+        "Area": {
+          "BRAM_18K": "10",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "~0",
+          "DSP": "8",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "~0",
+          "FF": "1187",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "~0",
+          "LUT": "1566",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "~0",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      },
+      "JetTaggerNN": {
+        "Latency": {
+          "LatencyBest": "78",
+          "LatencyAvg": "78",
+          "LatencyWorst": "80",
+          "PipelineIIMin": "23",
+          "PipelineIIMax": "24",
+          "PipelineII": "23 ~ 24",
+          "PipelineDepth": "",
+          "PipelineType": "dataflow"
+        },
+        "Timing": {
+          "Target": "2.80",
+          "Uncertainty": "0.35",
+          "Estimate": "2.435"
+        },
+        "Area": {
+          "BRAM_18K": "10",
+          "AVAIL_BRAM": "4320",
+          "UTIL_BRAM": "~0",
+          "DSP": "667",
+          "AVAIL_DSP": "6840",
+          "UTIL_DSP": "9",
+          "FF": "197198",
+          "AVAIL_FF": "2364480",
+          "UTIL_FF": "8",
+          "LUT": "370104",
+          "AVAIL_LUT": "1182240",
+          "UTIL_LUT": "31",
+          "URAM": "0",
+          "AVAIL_URAM": "960",
+          "UTIL_URAM": "0"
+        }
+      }
+    }
+  },
+  "GenerateBdFiles": "0",
+  "GenData": {
+    "DataVersion": "0.2",
+    "Time": "2024-10-14 11:24:21 CEST",
+    "ToolName": "vitis_hls",
+    "ToolVersion": "2023.2"
+  }
+}

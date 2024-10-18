@@ -25,7 +25,7 @@ def convert(model, outname):
 
     hls_model = hls4ml.converters.convert_from_keras_model(model,
                                                        backend='Vitis',
-                                                       project_name='JetTagger',
+                                                       project_name='JetTaggerNN',
                                                        clock_period=2.8, #1/360MHz = 2.8ns
                                                        hls_config=config,
                                                        output_dir=f'{outname}',
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     parser = ArgumentParser()
     parser.add_argument('-m','--model', default='model_QDeepSets_PermutationInv_nconst_16_nfeatures_21_nbits_8_pruned.h5' , help = 'Input model for conversion')    
-    parser.add_argument('-o','--outname', default='JetTagger' , help = 'Jet tagger synthesized output directory')    
+    parser.add_argument('-o','--outname', default='JetTaggerNN' , help = 'Jet tagger synthesized output directory')    
 
     args = parser.parse_args()
 
