@@ -1,14 +1,14 @@
 #Setup CMSSW
-CMSSW_VERSION = CMSSW_14_0_0_pre3
-if { [ info exists env(CMSSW_BASE) ] } { set CMSSW_BASE $env(CMSSW_BASE) } { set CMSSW_BASE $env(CMSSW_VERSION) }
+set CMSSW_BASE "CMSSW_14_0_0_pre3"
+# if { [ info exists env(CMSSW_BASE) ] } { set CMSSW_BASE $env(CMSSW_BASE) } { set CMSSW_BASE $env(CMSSW_VERSION) }
 
 #Open the project and then reset it
-open_project -reset proj_b_sync
+open_project -reset JetTagger
 
 # Top function
 set_top JetTagger
-add_files wrapper/JetTagger.cpp -cflags "-std=c++11 -I${CMSSW_BASE}/src"
-add_files wrapper/btag_nn.cpp -cflags "-std=c++11 -I${CMSSW_BASE}/src"
+add_files top/JetTagger.cpp -cflags "-std=c++11 -I${CMSSW_BASE}/src"
+add_files JetTaggerNN/firmware/JetTaggerNN.cpp -cflags "-std=c++11 -I${CMSSW_BASE}/src"
 
 #Reset solution
 open_solution -reset "solution1"
@@ -24,6 +24,5 @@ puts "***** C/RTL SYNTHESIS *****"
 set time_start [clock clicks -milliseconds]
 csynth_design
 set time_end [clock clicks -milliseconds]
-report_time "C/RTL SYNTHESIS" $time_start $time_end
-
+puts "C/RTL synthesis took [expr {($time_end - $time_start) / 1000.0}] seconds"
 #Make ipbb structure and .dep file later
