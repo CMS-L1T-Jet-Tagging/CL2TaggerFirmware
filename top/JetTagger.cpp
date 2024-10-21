@@ -5,7 +5,6 @@
 
 input_t candidate_mass(Particle candidate) {
     
-    #pragma HLS INLINE
     input_t massCand = input_t(0.13); // pion mass
 
     if (candidate.hwId.bits== l1ct::ParticleID::PHOTON) {
@@ -31,7 +30,7 @@ template<unsigned int N_PARTICLES, unsigned int N_FEATURES>
 void prepare_inputs(const Particle candidates[N_PARTICLES], input_t (&tagger_ingput)[N_PARTICLES*N_FEATURES]) {
 
   //Based on latest PUPPI specifications
-  #pragma HLS INLINE
+  #pragma HLS INLINE OFF
 
   //Loop through each particle and its features
   for (int i_particle = 0; i_particle < N_PARTICLES; i_particle++) {

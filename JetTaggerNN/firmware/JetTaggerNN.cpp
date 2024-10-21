@@ -9,7 +9,9 @@ void JetTaggerNN(
 ) {
 
     // hls-fpga-machine-learning insert IO
-    #pragma HLS INLINE 
+    #pragma HLS ARRAY_PARTITION variable=layer22_out complete dim=0
+    #pragma HLS ARRAY_PARTITION variable=layer24_out complete dim=0
+    #pragma HLS INLINE OFF
 
 #ifndef __SYNTHESIS__
     static bool loaded_weights = false;

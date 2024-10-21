@@ -19,34 +19,34 @@
 <PipelineType>yes</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>1.946</EstimatedClockPeriod>
+<EstimatedClockPeriod>1.659</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>676</Best-caseLatency>
-<Average-caseLatency>676</Average-caseLatency>
-<Worst-caseLatency>676</Worst-caseLatency>
-<Best-caseRealTimeLatency>1.352 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>1.352 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>1.352 us</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>201</PipelineInitiationInterval>
-<PipelineDepth>677</PipelineDepth>
-<Interval-min>201</Interval-min>
-<Interval-max>201</Interval-max>
+<Best-caseLatency>167</Best-caseLatency>
+<Average-caseLatency>167</Average-caseLatency>
+<Worst-caseLatency>167</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.334 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.334 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.334 us</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>15</PipelineInitiationInterval>
+<PipelineDepth>168</PipelineDepth>
+<Interval-min>15</Interval-min>
+<Interval-max>15</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>Timing Violation</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>top/JetTagger.cpp:96</SourceLocation>
+<SourceLocation>top/JetTagger.cpp:95</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>4</BRAM_18K>
-<DSP>123</DSP>
-<FF>322094</FF>
-<LUT>681903</LUT>
+<BRAM_18K>10</BRAM_18K>
+<DSP>2011</DSP>
+<FF>568773</FF>
+<LUT>871201</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
