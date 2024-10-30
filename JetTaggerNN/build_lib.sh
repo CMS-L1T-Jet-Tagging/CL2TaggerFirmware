@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 CC=g++
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
@@ -9,9 +10,10 @@ fi
 LDFLAGS=
 INCFLAGS="-Ifirmware/ap_types/"
 PROJECT=JetTaggerNN
-LIB_STAMP=c938edBE
+LIB_STAMP=cB66aEF7
+WEIGHTS_DIR="\"weights\""
 
-${CC} ${CFLAGS} ${INCFLAGS} -c firmware/${PROJECT}.cpp -o ${PROJECT}.o
-${CC} ${CFLAGS} ${INCFLAGS} -c ${PROJECT}_bridge.cpp -o ${PROJECT}_bridge.o
+${CC} ${CFLAGS} ${INCFLAGS} -D WEIGHTS_DIR=${WEIGHTS_DIR} -c firmware/${PROJECT}.cpp -o ${PROJECT}.o
+${CC} ${CFLAGS} ${INCFLAGS} -D WEIGHTS_DIR=${WEIGHTS_DIR} -c ${PROJECT}_bridge.cpp -o ${PROJECT}_bridge.o
 ${CC} ${CFLAGS} ${INCFLAGS} -shared ${PROJECT}.o ${PROJECT}_bridge.o -o firmware/${PROJECT}-${LIB_STAMP}.so
 rm -f *.o

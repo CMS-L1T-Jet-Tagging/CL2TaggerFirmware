@@ -21,6 +21,7 @@ size_t trace_type_size = sizeof(double);
 } // namespace nnet
 
 int main(int argc, char **argv) {
+
     // load input data from text file
     std::ifstream fin("tb_data/tb_input_features.dat");
     // load predictions from text file
@@ -60,11 +61,11 @@ int main(int argc, char **argv) {
             // hls-fpga-machine-learning insert data
       input_t inputs[N_INPUT_1_1*N_INPUT_2_1];
       nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1>(in, inputs);
-      layer22_t layer22_out[N_LAYER_22];
+      layer23_t layer23_out[N_LAYER_22];
       layer24_t layer24_out[N_LAYER_20];
 
             // hls-fpga-machine-learning insert top-level-function
-            JetTaggerNN(inputs,layer22_out,layer24_out);
+            JetTaggerNN(inputs,layer23_out,layer24_out);
 
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
@@ -79,13 +80,13 @@ int main(int argc, char **argv) {
                 std::cout << std::endl;
                 std::cout << "Quantized predictions" << std::endl;
                 // hls-fpga-machine-learning insert quantized
-                nnet::print_result<layer22_t, N_LAYER_22>(layer22_out, std::cout, true);
+                nnet::print_result<layer23_t, N_LAYER_22>(layer23_out, std::cout, true);
                 nnet::print_result<layer24_t, N_LAYER_20>(layer24_out, std::cout, true);
             }
             e++;
 
             // hls-fpga-machine-learning insert tb-output
-            nnet::print_result<layer22_t, N_LAYER_22>(layer22_out, fout);
+            nnet::print_result<layer23_t, N_LAYER_22>(layer23_out, fout);
             nnet::print_result<layer24_t, N_LAYER_20>(layer24_out, fout);
         }
         fin.close();
@@ -96,18 +97,18 @@ int main(int argc, char **argv) {
         // hls-fpga-machine-learning insert zero
     input_t inputs[N_INPUT_1_1*N_INPUT_2_1];
     nnet::fill_zero<input_t, N_INPUT_1_1*N_INPUT_2_1>(inputs);
-    layer22_t layer22_out[N_LAYER_22];
+    layer23_t layer23_out[N_LAYER_22];
     layer24_t layer24_out[N_LAYER_20];
 
         // hls-fpga-machine-learning insert top-level-function
-        JetTaggerNN(inputs,layer22_out,layer24_out);
+        JetTaggerNN(inputs,layer23_out,layer24_out);
 
         // hls-fpga-machine-learning insert output
-        nnet::print_result<layer22_t, N_LAYER_22>(layer22_out, std::cout, true);
+        nnet::print_result<layer23_t, N_LAYER_22>(layer23_out, std::cout, true);
         nnet::print_result<layer24_t, N_LAYER_20>(layer24_out, std::cout, true);
 
         // hls-fpga-machine-learning insert tb-output
-        nnet::print_result<layer22_t, N_LAYER_22>(layer22_out, fout);
+        nnet::print_result<layer23_t, N_LAYER_22>(layer23_out, fout);
         nnet::print_result<layer24_t, N_LAYER_20>(layer24_out, fout);
     }
 

@@ -10,6 +10,7 @@
 bias22_t b22[1];
 #else
 bias22_t b22[1] = {-0.027343750};
+
 #endif
 
 #endif

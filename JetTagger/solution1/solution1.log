@@ -17,7 +17,7 @@ INFO: [XFORM 203-1161] The maximum of name length is set to 80.
 INFO: [HLS 200-1510] Running: create_clock -period 2.0 -name default 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 2ns.
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.14 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 253.672 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 253.672 MB.
 INFO: [HLS 200-10] Analyzing design file 'JetTaggerNN/firmware/JetTaggerNN.cpp' ... 
 WARNING: [HLS 207-5292] unused parameter 'keep' (JetTaggerNN/firmware/nnet_utils/nnet_helpers.h:285:99)
 WARNING: [HLS 207-5292] unused parameter 'data' (JetTaggerNN/firmware/nnet_utils/nnet_code_gen.h:11:36)
@@ -31,27 +31,35 @@ WARNING: [HLS 207-5538] 'region' in '#pragma HLS Inline' is deprecated, use 'Inl
 WARNING: [HLS 207-5538] 'region' in '#pragma HLS Inline' is deprecated, use 'Inline Pragma' instead (CMSSW_14_0_0_pre3/src/DataFormats/L1TParticleFlow/interface/bit_encoding.h:50:36)
 WARNING: [HLS 207-5538] 'region' in '#pragma HLS Inline' is deprecated, use 'Inline Pragma' instead (CMSSW_14_0_0_pre3/src/DataFormats/L1TParticleFlow/interface/bit_encoding.h:65:36)
 WARNING: [HLS 207-5538] 'region' in '#pragma HLS Inline' is deprecated, use 'Inline Pragma' instead (CMSSW_14_0_0_pre3/src/DataFormats/L1TParticleFlow/interface/bit_encoding.h:80:36)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 79.56 seconds. CPU system time: 4.35 seconds. Elapsed time: 85.53 seconds; current allocated memory: 265.051 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 80.16 seconds. CPU system time: 4.34 seconds. Elapsed time: 86.07 seconds; current allocated memory: 265.043 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
 INFO: [HLS 200-1995] There were 32,856 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 2,065,086 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 649,233 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 648,133 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 643,955 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 464,367 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 294,390 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 294,813 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 294,669 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 294,327 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 279,208 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 277,286 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 277,286 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 277,286 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 277,322 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
-WARNING: [HLS 200-1995] There were 275,248 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 2,030,914 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 588,432 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 587,336 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 583,158 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 435,043 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 258,395 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 258,818 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 258,674 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 258,332 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 257,983 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 256,061 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 256,061 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 256,061 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 256,097 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 256,073 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /data/hlssynt-users/duhoang/CL2TaggerFirmware/JetTagger/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-415] Performing recursive inline in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:56:9)
+INFO: [HLS 214-415] Performing recursive inline in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:56:9)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::normalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config2::scale_t*, config2::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_batchnorm.h:59:17)
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54:25)
-INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54:25)
+INFO: [HLS 214-131] Inlining function 'nnet::fill_buffer_26<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>::fill_buffer(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [21], unsigned int) (.41)' into 'void nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*) (.30)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:36:2)
+INFO: [HLS 214-131] Inlining function 'std::enable_if<!(std::is_same<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26_mult>(config26_mult::accum_t) (.31)' into 'void nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*) (.30)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:81:21)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>) (.36)' into 'void nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*) (.30)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:53:25)
+INFO: [HLS 214-131] Inlining function 'void nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*) (.30)' into 'void nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60:9)
+INFO: [HLS 214-131] Inlining function 'nnet::fill_buffer_27<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, config27>::fill_buffer(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0> (*) [32], unsigned int) (.29)' into 'void nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*) (.1)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:36:2)
+INFO: [HLS 214-131] Inlining function 'std::enable_if<!(std::is_same<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27_mult>(config27_mult::accum_t) (.2)' into 'void nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*) (.1)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:81:21)
+INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>) (.24)' into 'void nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*) (.1)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:53:25)
+INFO: [HLS 214-131] Inlining function 'void nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*) (.1)' into 'void nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60:9)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config11::weight_t*, config11::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:42:27)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config14>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config14::weight_t*, config14::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:42:27)
 INFO: [HLS 214-131] Inlining function 'nnet::product::mult<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0> >::product(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<9, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config16>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config16::weight_t*, config16::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:42:27)
@@ -77,14 +85,14 @@ INFO: [HLS 214-291] Loop 'VITIS_LOOP_155_1' is marked as complete unroll implied
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_157_2' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:157:27)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_46_1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:46:22)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_31_1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:31:19)
-INFO: [HLS 214-291] Loop 'PartitionLoop' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:34:5)
-INFO: [HLS 214-291] Loop 'PixelLoop' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:40:9)
-INFO: [HLS 214-291] Loop 'Product1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:47:13)
-INFO: [HLS 214-291] Loop 'Product2' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:51:17)
-INFO: [HLS 214-291] Loop 'ResetAccum' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:61:13)
-INFO: [HLS 214-291] Loop 'Accum1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:68:13)
-INFO: [HLS 214-291] Loop 'Accum2' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:71:17)
-INFO: [HLS 214-291] Loop 'Result' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:79:13)
+INFO: [HLS 214-291] Loop 'PartitionLoop' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:33:5)
+INFO: [HLS 214-291] Loop 'PixelLoop' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:39:9)
+INFO: [HLS 214-291] Loop 'Product1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:46:13)
+INFO: [HLS 214-291] Loop 'Product2' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:50:17)
+INFO: [HLS 214-291] Loop 'ResetAccum' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:60:13)
+INFO: [HLS 214-291] Loop 'Accum1' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:67:13)
+INFO: [HLS 214-291] Loop 'Accum2' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:70:17)
+INFO: [HLS 214-291] Loop 'Result' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:78:13)
 INFO: [HLS 214-291] Loop 'Result' is marked as complete unroll implied by the pipeline pragma (JetTaggerNN/firmware/nnet_utils/nnet_batchnorm.h:52:5)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_36_1' is marked as complete unroll implied by the pipeline pragma (top/JetTagger.cpp:36:19)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_44_2' is marked as complete unroll implied by the pipeline pragma (top/JetTagger.cpp:44:26)
@@ -129,25 +137,25 @@ INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_157_2' (JetTaggerNN/firmware/nnet
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_46_1' (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:46:22) in function 'nnet::avg<ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, 16>' completely with a factor of 16 (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:44:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_31_1' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:31:19) in function 'nnet::linear<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, linear_config9>' completely with a factor of 512 (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:28:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_43_1' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:43:22) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, relu_config8>' completely with a factor of 512 (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:39:0)
-INFO: [HLS 214-186] Unrolling loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:34:5) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 16 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-WARNING: [HLS 214-189] Pipeline directive for loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:34:5) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' has been removed because the loop is unrolled completely (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'PixelLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:40:9) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 1 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Result' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:79:13) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Accum1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:68:13) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Accum2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:71:17) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:61:13) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Product1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:47:13) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Product2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:51:17) in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
+INFO: [HLS 214-186] Unrolling loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:33:5) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 16 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:33:5) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' has been removed because the loop is unrolled completely (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'PixelLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:39:9) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 1 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Result' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:78:13) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:67:13) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:70:17) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:60:13) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:46:13) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:50:17) in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_43_1' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:43:22) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, relu_config5>' completely with a factor of 512 (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:39:0)
-INFO: [HLS 214-186] Unrolling loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:34:5) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 16 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-WARNING: [HLS 214-189] Pipeline directive for loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:34:5) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' has been removed because the loop is unrolled completely (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'PixelLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:40:9) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 1 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Result' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:79:13) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Accum1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:68:13) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 21 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Accum2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:71:17) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:61:13) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Product1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:47:13) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 21 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
-INFO: [HLS 214-186] Unrolling loop 'Product2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:51:17) in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:14:0)
+INFO: [HLS 214-186] Unrolling loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:33:5) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 16 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'PartitionLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:33:5) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' has been removed because the loop is unrolled completely (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'PixelLoop' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:39:9) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 1 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Result' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:78:13) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:67:13) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 21 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Accum2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:70:17) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'ResetAccum' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:60:13) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Product1' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:46:13) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 21 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
+INFO: [HLS 214-186] Unrolling loop 'Product2' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:50:17) in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' completely with a factor of 32 (JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:52:0)
 INFO: [HLS 214-186] Unrolling loop 'Result' (JetTaggerNN/firmware/nnet_utils/nnet_batchnorm.h:52:5) in function 'nnet::normalize<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' completely with a factor of 336 (JetTaggerNN/firmware/nnet_utils/nnet_batchnorm.h:33:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_36_1' (top/JetTagger.cpp:36:19) in function 'prepare_inputs<16u, 21u>' completely with a factor of 16 (top/JetTagger.cpp:30:0)
 INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_44_2' (top/JetTagger.cpp:44:26) in function 'prepare_inputs<16u, 21u>' completely with a factor of 21 (top/JetTagger.cpp:30:0)
@@ -162,20 +170,18 @@ INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_ufixed<9
 INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config16>(config16::accum_t)' into 'void nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config16>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config16::weight_t*, config16::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:15:0)
 INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config20>(config20::accum_t)' into 'void nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config20>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config20::weight_t*, config20::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:15:0)
 INFO: [HLS 214-178] Inlining function 'std::enable_if<!(std::is_same<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_uint<1> >::value), ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::type nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config22>(config22::accum_t)' into 'void nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config22>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config22::weight_t*, config22::bias_t*)' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:15:0)
-INFO: [HLS 214-178] Inlining function 'nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.195)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.195)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.228)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.228)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
 INFO: [HLS 214-178] Inlining function 'nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
 INFO: [HLS 214-178] Inlining function 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.187)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.155.164)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >) (.182)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >) (.182)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.155.164)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
-INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.155.164)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.220)' into 'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.188.197)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >) (.215)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >) (.215)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.188.197)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
+INFO: [HLS 214-178] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >::operator()(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>) (.188.197)' into 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:36:0)
 INFO: [HLS 214-178] Inlining function 'unsigned int nnet::softmax_idx_from_real_val<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:216:0)
 INFO: [HLS 214-178] Inlining function 'ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> const*, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> >)' into 'void nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:216:0)
 INFO: [HLS 214-178] Inlining function 'unsigned int nnet::softmax_idx_from_real_val<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config24>(ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>)' into 'void nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:216:0)
-INFO: [HLS 214-178] Inlining function 'void nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config26::weight_t*, config26::bias_t*)' into 'JetTaggerNN(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/JetTaggerNN.cpp:9:0)
-INFO: [HLS 214-178] Inlining function 'void nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>(ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, config27::weight_t*, config27::bias_t*)' into 'JetTaggerNN(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/JetTaggerNN.cpp:9:0)
 INFO: [HLS 214-178] Inlining function 'l1ct::Jet::clear()' into 'l1ct::clear(l1ct::Jet&)' (CMSSW_14_0_0_pre3/src/DataFormats/L1TParticleFlow/interface/jets.h:116:0)
 INFO: [HLS 214-178] Inlining function 'l1ct::clear(l1ct::Jet&)' into 'JetTagger(l1ct::PuppiObj const*, l1ct::Jet*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*, JetCtrlToken const&, JetCtrlToken&)' (top/JetTagger.cpp:88:0)
 INFO: [HLS 214-178] Inlining function 'ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> nnet::avg<ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, 2>(ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> (&) [2])' into 'ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> nnet::pool_op<ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, 2, (nnet::Pool_Op)1>(ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> (&) [2])' (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:55:0)
@@ -191,8 +197,8 @@ INFO: [HLS 214-248] Applying array_partition to 'b26': Complete partitioning on 
 INFO: [HLS 214-248] Applying array_partition to 'w26': Complete partitioning on dimension 1. (JetTaggerNN/firmware/weights/w26.h:12:0)
 INFO: [HLS 214-248] Applying array_partition to 'b2': Complete partitioning on dimension 1. (JetTaggerNN/firmware/weights/b2.h:12:0)
 INFO: [HLS 214-248] Applying array_partition to 's2': Complete partitioning on dimension 1. (JetTaggerNN/firmware/weights/s2.h:12:0)
-INFO: [HLS 214-248] Applying array_partition to 'data_buf': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:18:12)
-INFO: [HLS 214-248] Applying array_partition to 'mult': Complete partitioning on dimension 1. (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:21:29)
+INFO: [HLS 214-248] Applying array_partition to 'data_buf.i': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:18:12)
+INFO: [HLS 214-248] Applying array_partition to 'mult.i': Complete partitioning on dimension 1. (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:21:29)
 INFO: [HLS 214-248] Applying array_partition to 'mult': Complete partitioning on dimension 1. (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:17:32)
 INFO: [HLS 214-248] Applying array_partition to 'exp_res': Complete partitioning on dimension 1. (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:249:36)
 INFO: [HLS 214-248] Applying array_partition to 'layer2_out': Complete partitioning on dimension 1. (JetTaggerNN/firmware/JetTaggerNN.cpp:46:11)
@@ -236,23 +242,19 @@ INFO: [HLS 214-241] Aggregating scalar variable 'input_1' with compact=bit mode 
 INFO: [HLS 214-241] Aggregating scalar variable 'input_0' with compact=bit mode in 61-bits (top/JetTagger.cpp:88:0)
 INFO: [HLS 214-364] Automatically inlining function 'ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> nnet::avg<ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, 16>(ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0> (&) [16])' to improve effectiveness of pipeline pragma in function 'void nnet::global_pooling1d_cl<ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config10>(ap_fixed<18, 9, (ap_q_mode)4, (ap_o_mode)0, 0>*, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>*)' (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:60:16)
 WARNING: [HLS 214-209] Ignoring ALLOCATION pragma, because the corresponding call is removed (JetTaggerNN/firmware/nnet_utils/nnet_pooling.h:153:9)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2081.25 seconds. CPU system time: 3.18 seconds. Elapsed time: 2096.4 seconds; current allocated memory: 298.918 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 298.918 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1992.95 seconds. CPU system time: 3.49 seconds. Elapsed time: 2004.74 seconds; current allocated memory: 298.926 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 298.926 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 26.52 seconds. CPU system time: 0.19 seconds. Elapsed time: 26.95 seconds; current allocated memory: 459.215 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 25.11 seconds. CPU system time: 0.23 seconds. Elapsed time: 25.55 seconds; current allocated memory: 464.355 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO: [XFORM 203-602] Inlining function 'candidate_mass' into 'prepare_inputs<16u, 21u>' (top/JetTagger.cpp:61) automatically.
-INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26_mult>' into 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:82) automatically.
-INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27_mult>' into 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:82) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:239) automatically.
 WARNING: [SYNCHK 200-23] top/JetTagger.cpp:58: variable-indexed range selection may cause suboptimal QoR.
 INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 25.79 seconds. CPU system time: 0.13 seconds. Elapsed time: 26.03 seconds; current allocated memory: 530.934 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 24.95 seconds. CPU system time: 0.15 seconds. Elapsed time: 25.21 seconds; current allocated memory: 527.973 MB.
 INFO: [XFORM 203-602] Inlining function 'candidate_mass' into 'prepare_inputs<16u, 21u>' (top/JetTagger.cpp:61) automatically.
-INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26_mult>' into 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:82) automatically.
-INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27_mult>' into 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:82) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_max<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>' (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:239) automatically.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (top/JetTagger.cpp:84:1) in function 'prepare_inputs<16u, 21u>'... converting 625 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'prepare_inputs<16u, 21u>'... converting 529 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:42:9) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, relu_config8>'... converting 2497 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:42:9) to (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:50:1) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, relu_config5>'... converting 3073 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:42:9) to (JetTaggerNN/firmware/nnet_utils/nnet_activation.h:50:1) in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, relu_config19>'... converting 79 basic blocks.
@@ -261,23 +263,22 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (JetTaggerNN/f
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (JetTaggerNN/firmware/nnet_utils/nnet_common.h:45:5) in function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >'... converting 3 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (top/JetTagger.cpp:95:9) to (top/JetTagger.cpp:122:1) in function 'JetTagger'... converting 5 basic blocks.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config24>' (JetTaggerNN/firmware/nnet_utils/nnet_common.h:45->JetTaggerNN/firmware/nnet_utils/nnet_activation.h:262) automatically.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::pointwise_conv_1d_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' (JetTaggerNN/firmware/nnet_utils/nnet_mult.h:31:11)...8176 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::pointwise_conv_1d_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:31:25)...5344 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config22>' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:33:1)...13 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config20>' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:33:27)...160 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config16>' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:33:27)...181 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config14>' (JetTaggerNN/firmware/nnet_utils/nnet_dense_latency.h:33:27)...279 expression(s) balanced.
 INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>' (JetTaggerNN/firmware/nnet_utils/nnet_mult.h:33:11)...357 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::conv_1d_latency_cl<ap_ufixed<9, 0, (ap_q_mode)4, (ap_o_mode)0, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config27>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:31:25)...8176 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::conv_1d_latency_cl<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config26>' (JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:31:25)...5344 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 83.97 seconds. CPU system time: 0.29 seconds. Elapsed time: 84.65 seconds; current allocated memory: 759.602 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 74.66 seconds. CPU system time: 0.83 seconds. Elapsed time: 75.83 seconds; current allocated memory: 1.653 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 78.72 seconds. CPU system time: 0.29 seconds. Elapsed time: 79.38 seconds; current allocated memory: 738.141 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 74.02 seconds. CPU system time: 0.79 seconds. Elapsed time: 75.13 seconds; current allocated memory: 1.590 GB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'JetTagger' ...
 WARNING: [SYN 201-103] Legalizing function name 'prepare_inputs<16u, 21u>' to 'prepare_inputs_16u_21u_s'.
 WARNING: [SYN 201-103] Legalizing function name 'normalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>' to 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'.
-WARNING: [SYN 201-103] Legalizing function name 'fill_buffer.1' to 'fill_buffer_1'.
-WARNING: [SYN 201-103] Legalizing function name 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>' to 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s'.
+WARNING: [SYN 201-103] Legalizing function name 'pointwise_conv_1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config26>' to 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s'.
 WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config5>' to 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s'.
-WARNING: [SYN 201-103] Legalizing function name 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>' to 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s'.
+WARNING: [SYN 201-103] Legalizing function name 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>' to 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s'.
 WARNING: [SYN 201-103] Legalizing function name 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config8>' to 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s'.
 WARNING: [SYN 201-103] Legalizing function name 'linear<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<18, 9, 4, 0, 0>, linear_config9>' to 'linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s'.
 WARNING: [SYN 201-103] Legalizing function name 'global_pooling1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config10>' to 'global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s'.
@@ -298,16 +299,16 @@ INFO: [SCHED 204-61] Pipelining function 'prepare_inputs<16u, 21u>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 73, function 'prepare_inputs<16u, 21u>'
 WARNING: [HLS 200-871] Estimated clock period (1.659 ns) exceeds the target (target clock period: 2.000 ns, clock uncertainty: 0.540 ns, effective delay budget: 1.460 ns).
 WARNING: [HLS 200-1016] The critical path in module 'prepare_inputs_16u_21u_s' consists of the following:
-	'sitofp' operation 32 bit ('conv_i1', top/JetTagger.cpp:59) [127]  (1.659 ns)
+	'sitofp' operation 32 bit ('conv_i1', top/JetTagger.cpp:59) [126]  (1.659 ns)
 
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 7.18 seconds. CPU system time: 0.27 seconds. Elapsed time: 7.55 seconds; current allocated memory: 1.728 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 6.28 seconds. CPU system time: 0.21 seconds. Elapsed time: 6.58 seconds; current allocated memory: 1.654 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 3.74 seconds. CPU system time: 0.07 seconds. Elapsed time: 3.83 seconds; current allocated memory: 1.743 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.84 seconds. CPU system time: 0.06 seconds. Elapsed time: 2.92 seconds; current allocated memory: 1.669 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -315,48 +316,30 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'normalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, function 'normalize<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config2>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 6.3 seconds. CPU system time: 0.06 seconds. Elapsed time: 6.4 seconds; current allocated memory: 1.743 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 5.69 seconds. CPU system time: 0.07 seconds. Elapsed time: 5.78 seconds; current allocated memory: 1.669 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1.92 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.96 seconds; current allocated memory: 1.767 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.87 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.91 seconds; current allocated memory: 1.696 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'fill_buffer_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining function 'fill_buffer.1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 0, Final II = 1, Depth = 1, function 'fill_buffer.1'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.72 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.76 seconds; current allocated memory: 1.767 GB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 1.767 GB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' 
+INFO: [HLS 200-42] -- Implementing module 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
+INFO: [SCHED 204-61] Pipelining function 'pointwise_conv_1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config26>'.
 WARNING: [HLS 200-882] User specified resource constraint cannot be honored operation type mul(II = 1)..
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' (function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'): Unable to schedule 'mul' operation 22 bit ('mul_ln73_3258', JetTaggerNN/firmware/nnet_utils/nnet_mult.h:73->JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 2).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' (function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'): Unable to schedule 'mul' operation 21 bit ('mul_ln73_2585', JetTaggerNN/firmware/nnet_utils/nnet_mult.h:73->JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 3).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' (function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'): Unable to schedule 'mul' operation 22 bit ('mul_ln54_2084', JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 4).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' (function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'): Unable to schedule 'mul' operation 22 bit ('mul_ln73_3228', JetTaggerNN/firmware/nnet_utils/nnet_mult.h:73->JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 5).
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 6, Depth = 14, function 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 4, function 'pointwise_conv_1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config26>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 180.49 seconds. CPU system time: 1.07 seconds. Elapsed time: 182.3 seconds; current allocated memory: 2.490 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 58.64 seconds. CPU system time: 0.36 seconds. Elapsed time: 59.27 seconds; current allocated memory: 1.977 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 193.45 seconds. CPU system time: 0.42 seconds. Elapsed time: 194.65 seconds; current allocated memory: 2.490 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 160.23 seconds. CPU system time: 0.51 seconds. Elapsed time: 161.39 seconds; current allocated memory: 2.231 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -364,47 +347,31 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config5>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config5>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 20.69 seconds. CPU system time: 0.37 seconds. Elapsed time: 21.15 seconds; current allocated memory: 2.490 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 20.8 seconds. CPU system time: 0.34 seconds. Elapsed time: 21.23 seconds; current allocated memory: 2.231 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 21.51 seconds. CPU system time: 0.17 seconds. Elapsed time: 21.78 seconds; current allocated memory: 2.490 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 20.93 seconds. CPU system time: 0.17 seconds. Elapsed time: 21.2 seconds; current allocated memory: 2.231 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'fill_buffer' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining function 'fill_buffer'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 0, Final II = 1, Depth = 1, function 'fill_buffer'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 14.25 seconds. CPU system time: 0.23 seconds. Elapsed time: 14.54 seconds; current allocated memory: 2.490 GB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 2.490 GB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' 
+INFO: [HLS 200-42] -- Implementing module 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'.
+INFO: [SCHED 204-61] Pipelining function 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>'.
 WARNING: [HLS 200-882] User specified resource constraint cannot be honored operation type mul(II = 1)..
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' (function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'): Unable to schedule 'mul' operation 13 bit ('mul_ln54_908', JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 2).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' (function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'): Unable to schedule 'mul' operation 16 bit ('mul_ln73_2107', JetTaggerNN/firmware/nnet_utils/nnet_mult.h:73->JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 3).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' (function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'): Unable to schedule 'mul' operation 14 bit ('mul_ln73_677', JetTaggerNN/firmware/nnet_utils/nnet_mult.h:73->JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 4).
-WARNING: [HLS 200-885] The II Violation in module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' (function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'): Unable to schedule 'mul' operation 15 bit ('mul_ln54_1134', JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:54) due to limited resources (II = 7).
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 8, Depth = 15, function 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'
+WARNING: [HLS 200-885] The II Violation in module 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' (function 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>'): Unable to schedule 'mul' operation 15 bit ('mul_ln53_227', JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:53->JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60) due to limited resources (II = 2).
+WARNING: [HLS 200-885] The II Violation in module 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' (function 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>'): Unable to schedule 'mul' operation 15 bit ('mul_ln53_1493', JetTaggerNN/firmware/nnet_utils/nnet_conv1d_latency.h:53->JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60) due to limited resources (II = 3).
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 4, Depth = 7, function 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 753.01 seconds. CPU system time: 3.32 seconds. Elapsed time: 758.9 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 265.88 seconds. CPU system time: 1.02 seconds. Elapsed time: 267.86 seconds; current allocated memory: 2.713 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 455.8 seconds. CPU system time: 1.03 seconds. Elapsed time: 458.7 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 499.4 seconds. CPU system time: 1.13 seconds. Elapsed time: 502.56 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -412,13 +379,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config8>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config8>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 18.88 seconds. CPU system time: 0.54 seconds. Elapsed time: 19.51 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 18.8 seconds. CPU system time: 0.52 seconds. Elapsed time: 19.41 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 14.37 seconds. CPU system time: 0.12 seconds. Elapsed time: 14.57 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 14.02 seconds. CPU system time: 0.09 seconds. Elapsed time: 14.18 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -426,13 +393,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'linear<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<18, 9, 4, 0, 0>, linear_config9>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, function 'linear<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<18, 9, 4, 0, 0>, linear_config9>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 10.46 seconds. CPU system time: 0.17 seconds. Elapsed time: 10.68 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 10.15 seconds. CPU system time: 0.16 seconds. Elapsed time: 10.37 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.41 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.42 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.4 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.42 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -440,13 +407,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'global_pooling1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config10>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 17, function 'global_pooling1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config10>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4.24 seconds. CPU system time: 0.04 seconds. Elapsed time: 4.3 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4.1 seconds. CPU system time: 0.03 seconds. Elapsed time: 4.15 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 2.37 seconds. CPU system time: 0.05 seconds. Elapsed time: 2.43 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.34 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.39 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -454,14 +421,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5, function 'dense_latency<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config11>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.93 seconds. CPU system time: 0.06 seconds. Elapsed time: 4 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.9 seconds. CPU system time: 0.04 seconds. Elapsed time: 3.96 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.15 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.12 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.14 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -469,13 +436,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config13>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config13>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.49 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.52 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.49 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.51 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -483,14 +450,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config14>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config14>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.5 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.52 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.49 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.51 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.81 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.84 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.81 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.83 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -498,14 +465,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config16>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config16>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.9 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.94 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.88 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.91 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.44 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.46 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.43 seconds. CPU system time: 0 seconds. Elapsed time: 0.45 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -513,13 +480,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config18>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config18>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.51 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.53 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.51 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.52 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -527,13 +494,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config19>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_ufixed<9, 0, 4, 0, 0>, relu_config19>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.33 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.36 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.34 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.35 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -541,14 +508,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config20>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 7, function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config20>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.07 seconds. CPU system time: 0 seconds. Elapsed time: 2.08 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.06 seconds. CPU system time: 0 seconds. Elapsed time: 2.08 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.58 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.59 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.56 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.57 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -556,14 +523,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config22>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, function 'dense_latency<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config22>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.35 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.38 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.34 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.37 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -571,66 +538,59 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config24>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 13, function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config24>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.23 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.23 seconds; current allocated memory: 3.058 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 3.058 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'JetTaggerNN' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'JetTaggerNN'.
-WARNING: [HLS 200-875] II = 8 is infeasible due to multiple pipeline iteration latency = 14 and incompatible II = 6 of 'call' operation 8192 bit ('call_ret31', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:52) to 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
-WARNING: [HLS 200-875] II = 9 is infeasible due to multiple pipeline iteration latency = 14 and incompatible II = 6 of 'call' operation 8192 bit ('call_ret31', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:52) to 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
-WARNING: [HLS 200-875] II = 10 is infeasible due to multiple pipeline iteration latency = 14 and incompatible II = 6 of 'call' operation 8192 bit ('call_ret31', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:52) to 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
-WARNING: [HLS 200-875] II = 11 is infeasible due to multiple pipeline iteration latency = 14 and incompatible II = 6 of 'call' operation 8192 bit ('call_ret31', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:52) to 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
-WARNING: [HLS 200-875] II = 12 is infeasible due to multiple pipeline iteration latency = 15 and incompatible II = 8 of 'call' operation 6656 bit ('call_ret33', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:60) to 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'.
-WARNING: [HLS 200-875] II = 13 is infeasible due to multiple pipeline iteration latency = 14 and incompatible II = 6 of 'call' operation 8192 bit ('call_ret31', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:52) to 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>'.
-WARNING: [HLS 200-875] II = 14 is infeasible due to multiple pipeline iteration latency = 15 and incompatible II = 8 of 'call' operation 6656 bit ('call_ret33', JetTaggerNN/firmware/nnet_utils/nnet_conv1d.h:60->JetTaggerNN/firmware/JetTaggerNN.cpp:60) to 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 15, Depth = 92, function 'JetTaggerNN'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 4, Depth = 74, function 'JetTaggerNN'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.17 seconds. CPU system time: 0.02 seconds. Elapsed time: 3.2 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.01 seconds. CPU system time: 0.03 seconds. Elapsed time: 3.05 seconds; current allocated memory: 3.078 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 2.98 seconds. CPU system time: 0.17 seconds. Elapsed time: 3.16 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 2.85 seconds. CPU system time: 0.15 seconds. Elapsed time: 3.02 seconds; current allocated memory: 3.086 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'JetTagger' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'JetTagger'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 15, Depth = 168, function 'JetTagger'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 4, Depth = 150, function 'JetTagger'
 WARNING: [HLS 200-871] Estimated clock period (1.659 ns) exceeds the target (target clock period: 2.000 ns, clock uncertainty: 0.540 ns, effective delay budget: 1.460 ns).
 WARNING: [HLS 200-1016] The critical path in module 'JetTagger' consists of the following:
-	'call' operation 5376 bit ('call_ret', top/JetTagger.cpp:108) to 'prepare_inputs<16u, 21u>' [83]  (1.659 ns)
+	'call' operation 5120 bit ('call_ret', top/JetTagger.cpp:108) to 'prepare_inputs<16u, 21u>' [83]  (1.659 ns)
 
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.11 seconds. CPU system time: 0.05 seconds. Elapsed time: 3.17 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3.17 seconds. CPU system time: 0.03 seconds. Elapsed time: 3.22 seconds; current allocated memory: 3.088 GB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1.2 seconds. CPU system time: 0.04 seconds. Elapsed time: 1.24 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.17 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.2 seconds; current allocated memory: 3.100 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'prepare_inputs_16u_21u_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-104] Estimated max fanout for 'prepare_inputs_16u_21u_s' is 127680 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_ce_reg))
+INFO: [RTGEN 206-104] Estimated max fanout for 'prepare_inputs_16u_21u_s' is 110176 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_ce_reg))
 INFO: [RTGEN 206-100] Generating core module 'dlog_64ns_64ns_64_65_full_dsp_0': 16 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_8_max_dsp_0': 64 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_3_no_dsp_0': 64 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'sitofp_32s_32_7_no_dsp_0': 64 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_8_max_dsp_0': 48 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fpext_32ns_64_3_no_dsp_0': 48 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32s_32_7_no_dsp_0': 48 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'prepare_inputs_16u_21u_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 26.09 seconds. CPU system time: 0.2 seconds. Elapsed time: 26.4 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 23.59 seconds. CPU system time: 0.38 seconds. Elapsed time: 24.07 seconds; current allocated memory: 3.484 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-104] Estimated max fanout for 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' is 10752 from HDL expression: (1'b1 == ap_ce_reg)
+INFO: [RTGEN 206-104] Estimated max fanout for 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s' is 10240 from HDL expression: (1'b1 == ap_ce_reg)
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_10ns_25_2_0': 16 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_12ns_26_2_0': 16 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_13ns_26_2_0': 48 instance(s).
@@ -639,82 +599,72 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_14ns_26_2_0': 80 instance(
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_15ns_26_2_0': 96 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_24_2_0': 16 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'normalize_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 125.79 seconds. CPU system time: 0.6 seconds. Elapsed time: 126.97 seconds; current allocated memory: 4.132 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 109.2 seconds. CPU system time: 0.64 seconds. Elapsed time: 110.31 seconds; current allocated memory: 3.854 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'fill_buffer_1' 
+INFO: [HLS 200-10] -- Generating RTL for module 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_32_16_1_1': 21 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'fill_buffer_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.22 seconds. CPU system time: 0.18 seconds. Elapsed time: 2.44 seconds; current allocated memory: 4.132 GB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' pipeline 'conv_1d_latency_cl<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, config26>' pipeline type 'function pipeline'
-INFO: [RTGEN 206-104] Estimated max fanout for 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s' is 25141 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_10s_22_2_1': 8 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_5ns_21_2_1': 25 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_5s_21_2_1': 19 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_6ns_22_2_1': 40 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_6s_21_2_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_6s_22_2_1': 56 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_7ns_22_2_1': 44 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_7s_22_2_1': 47 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_8ns_22_2_1': 28 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_22_2_1': 43 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_22_2_1': 11 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_22_2_1': 14 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_1d_latency_cl_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config26_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 36.56 seconds. CPU system time: 0.72 seconds. Elapsed time: 37.44 seconds; current allocated memory: 4.679 GB.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s' pipeline 'pointwise_conv_1d_cl<ap_fixed,ap_fixed<16,6,5,3,0>,config26>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s' is 47505 from HDL expression: ((1'b0 == ap_block_pp0_stage1_11001) & (1'b1 == ap_CS_fsm_pp0_stage1))
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_10s_22_2_1': 23 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_5ns_21_2_1': 85 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_5s_21_2_1': 52 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_6ns_22_2_1': 118 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_6s_22_2_1': 157 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_7ns_22_2_1': 136 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_7s_22_2_1': 134 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_8ns_22_2_1': 74 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_22_2_1': 135 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_22_2_1': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_22_2_1': 54 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pointwise_conv_1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config26_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 41.23 seconds. CPU system time: 1.12 seconds. Elapsed time: 42.56 seconds; current allocated memory: 4.812 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-104] Estimated max fanout for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s' is 12800 from HDL expression: ((1'b1 == 1'b1) & (1'b0 == ap_block_pp0_stage0_11001))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config5_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 60.68 seconds. CPU system time: 1.99 seconds. Elapsed time: 63.35 seconds; current allocated memory: 5.668 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 65.68 seconds. CPU system time: 2.02 seconds. Elapsed time: 68.39 seconds; current allocated memory: 5.811 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'fill_buffer' 
+INFO: [HLS 200-10] -- Generating RTL for module 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_32_9_1_1': 32 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'fill_buffer'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 36.11 seconds. CPU system time: 1.08 seconds. Elapsed time: 37.65 seconds; current allocated memory: 5.843 GB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' pipeline 'conv_1d_latency_cl<ap_ufixed<9, 0, 4, 0, 0>, ap_fixed<16, 6, 5, 3, 0>, config27>' pipeline type 'function pipeline'
-INFO: [RTGEN 206-104] Estimated max fanout for 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s' is 21312 from HDL expression: ((1'b0 == ap_block_pp0_stage6_11001) & (1'b1 == ap_CS_fsm_pp0_stage6))
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_5ns_13_1_1': 25 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_5s_14_1_1': 22 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_6ns_14_1_1': 59 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_6s_15_1_1': 102 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7ns_15_1_1': 102 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7s_16_1_1': 105 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8ns_16_1_1': 30 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_15_1_1': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_16_1_1': 6 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 51 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9ns_17_1_1': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_16_1_1': 3 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_17_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_18_1_1': 2 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_1d_latency_cl_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config27_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 35.87 seconds. CPU system time: 0.86 seconds. Elapsed time: 36.91 seconds; current allocated memory: 6.656 GB.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' pipeline 'pointwise_conv_1d_cl<ap_ufixed,ap_fixed<16,6,5,3,0>,config27>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s' is 45913 from HDL expression: ((1'b0 == ap_block_pp0_stage1_11001) & (1'b1 == ap_CS_fsm_pp0_stage1))
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_10s_17_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_5ns_13_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_5s_14_1_1': 38 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_6ns_14_1_1': 47 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_6s_15_1_1': 148 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7ns_15_1_1': 85 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7s_14_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7s_15_1_1': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_7s_16_1_1': 165 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8ns_16_1_1': 38 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_15_1_1': 44 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_16_1_1': 95 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 172 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9ns_17_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_16_1_1': 61 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_17_1_1': 28 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_18_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pointwise_conv_1d_cl_ap_ufixed_ap_fixed_16_6_5_3_0_config27_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 70.46 seconds. CPU system time: 1.85 seconds. Elapsed time: 72.91 seconds; current allocated memory: 6.790 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-104] Estimated max fanout for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s' is 10400 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == 1'b1))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config8_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 80.26 seconds. CPU system time: 3.15 seconds. Elapsed time: 84.56 seconds; current allocated memory: 7.791 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 90.77 seconds. CPU system time: 3.44 seconds. Elapsed time: 95.46 seconds; current allocated memory: 7.959 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'linear_ap_ufixed_9_0_4_0_0_ap_fixed_18_9_4_0_0_linear_config9_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 39.35 seconds. CPU system time: 1.31 seconds. Elapsed time: 41.1 seconds; current allocated memory: 8.391 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 39.14 seconds. CPU system time: 1.29 seconds. Elapsed time: 40.87 seconds; current allocated memory: 8.560 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-104] Estimated max fanout for 'global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s' is 56992 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_ce_reg))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'global_pooling1d_cl_ap_fixed_ap_fixed_16_6_5_3_0_config10_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 9.87 seconds. CPU system time: 0.34 seconds. Elapsed time: 10.32 seconds; current allocated memory: 8.594 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 10 seconds. CPU system time: 0.32 seconds. Elapsed time: 10.42 seconds; current allocated memory: 8.759 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -730,12 +680,12 @@ INFO: [RTGEN 206-100] Generating core module 'mul_16s_8s_22_2_1': 20 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9ns_22_2_1': 13 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_16s_9s_22_2_1': 5 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config11_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 6.71 seconds. CPU system time: 0.45 seconds. Elapsed time: 7.33 seconds; current allocated memory: 8.600 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 6.66 seconds. CPU system time: 0.36 seconds. Elapsed time: 7.2 seconds; current allocated memory: 8.769 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.47 seconds. CPU system time: 0.31 seconds. Elapsed time: 2.85 seconds; current allocated memory: 8.600 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.44 seconds. CPU system time: 0.26 seconds. Elapsed time: 2.78 seconds; current allocated memory: 8.769 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -750,7 +700,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8ns_16_1_1': 15 instance(s
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 15 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9ns_17_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.24 seconds. CPU system time: 0.24 seconds. Elapsed time: 2.55 seconds; current allocated memory: 8.600 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.19 seconds. CPU system time: 0.26 seconds. Elapsed time: 2.53 seconds; current allocated memory: 8.769 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -764,17 +714,17 @@ INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8ns_16_1_1': 8 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 17 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_18_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config16_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.77 seconds. CPU system time: 0.38 seconds. Elapsed time: 3.24 seconds; current allocated memory: 8.600 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.78 seconds. CPU system time: 0.35 seconds. Elapsed time: 3.22 seconds; current allocated memory: 8.956 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config18_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.23 seconds. CPU system time: 0.33 seconds. Elapsed time: 2.66 seconds; current allocated memory: 8.858 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.17 seconds. CPU system time: 0.2 seconds. Elapsed time: 2.46 seconds; current allocated memory: 8.956 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config19_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.83 seconds. CPU system time: 0.1 seconds. Elapsed time: 2 seconds; current allocated memory: 8.883 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.84 seconds. CPU system time: 0.2 seconds. Elapsed time: 2.11 seconds; current allocated memory: 8.956 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -794,7 +744,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 7 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9ns_17_1_1': 13 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_18_1_1': 9 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.1 seconds. CPU system time: 0.09 seconds. Elapsed time: 2.26 seconds; current allocated memory: 8.900 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.1 seconds. CPU system time: 0.2 seconds. Elapsed time: 2.35 seconds; current allocated memory: 8.956 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -804,7 +754,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_9ns_8s_17_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9ns_17_1_1': 5 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_9ns_9s_18_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config22_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.96 seconds. CPU system time: 0.13 seconds. Elapsed time: 2.2 seconds; current allocated memory: 8.917 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2.02 seconds. CPU system time: 0.26 seconds. Elapsed time: 2.36 seconds; current allocated memory: 8.956 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -815,15 +765,14 @@ INFO: [RTGEN 206-100] Generating core module 'mul_18s_17ns_26_2_1': 1 instance(s
 INFO: [RTGEN 206-100] Finished creating RTL model for 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s'.
 INFO: [RTMG 210-279] Implementing memory 'JetTagger_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_exp_table_ROM_bkb' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'JetTagger_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config24_s_invert_table_Rcud' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.5 seconds. CPU system time: 0.08 seconds. Elapsed time: 1.65 seconds; current allocated memory: 8.934 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.54 seconds. CPU system time: 0.2 seconds. Elapsed time: 1.81 seconds; current allocated memory: 9.081 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'JetTaggerNN' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'JetTaggerNN' pipeline 'JetTaggerNN' pipeline type 'function pipeline'
-INFO: [RTGEN 206-104] Estimated max fanout for 'JetTaggerNN' is 65728 from HDL expression: (((1'b0 == ap_block_pp0_stage5_11001_ignoreCallOp3089) & (1'b1 == ap_CS_fsm_pp0_stage5)) | ((1'b0 == ap_block_pp0_stage4_11001_ignoreCallOp3088) & (1'b1 == ap_CS_fsm_pp0_stage4)) | ((1'b0 == ap_block_pp0_stage3_11001_ignoreCallOp3087) & (1'b1 == ap_CS_fsm_pp0_stage3)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp3086) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp3085) & (1'b1 == ap_CS_fsm_pp0_stage1)) | ((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp3084) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage14_11001_ignoreCallOp3083) & (1'b1 == ap_CS_fsm_pp0_stage14)) | ((1'b0 == ap_block_pp0_stage13_11001_ignoreCallOp3082) & (1'b1 == ap_CS_fsm_pp0_stage13)) | ((1'b0 == ap_block_pp0_stage12_11001_ignoreCallOp3081) & (1'b1 == ap_CS_fsm_pp0_stage12)) | ((1'b0 == ap_block_pp0_stage11_11001_ignoreCallOp3080) & (1'b1 == ap_CS_fsm_pp0_stage11)) | ((1'b0 == ap_block_pp0_stage10_11001_ignoreCallOp3079) & (1'b1 == ap_CS_fsm_pp0_stage10)) | ((1'b0 == ap_block_pp0_stage9_11001_ignoreCallOp3078) 
-    & (1'b1 == ap_CS_fsm_pp0_stage9)) | ((1'b0 == ap_block_pp0_stage8_11001_ignoreCallOp3077) & (1'b1 == ap_CS_fsm_pp0_stage8)) | ((1'b0 == ap_block_pp0_stage7_11001_ignoreCallOp3076) & (1'b1 == ap_CS_fsm_pp0_stage7)) | ((1'b0 == ap_block_pp0_stage6_11001_ignoreCallOp3075) & (1'b1 == ap_CS_fsm_pp0_stage6)))
+INFO: [RTGEN 206-104] Estimated max fanout for 'JetTaggerNN' is 65728 from HDL expression: (((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp3010) & (1'b1 == ap_CS_fsm_pp0_stage1)) | ((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp3009) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage3_11001_ignoreCallOp3008) & (1'b1 == ap_CS_fsm_pp0_stage3)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp3007) & (1'b1 == ap_CS_fsm_pp0_stage2)))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'JetTaggerNN'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 79.24 seconds. CPU system time: 2.07 seconds. Elapsed time: 81.69 seconds; current allocated memory: 10.834 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 78.89 seconds. CPU system time: 2.15 seconds. Elapsed time: 81.39 seconds; current allocated memory: 10.979 GB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'JetTagger' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -852,13 +801,12 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'JetTagger/token_q' to 'ap_
 WARNING: [RTGEN 206-101] Port 'token_q' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
 INFO: [RTGEN 206-500] Setting interface mode on function 'JetTagger' to 'ap_ctrl_hs'.
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'JetTagger' pipeline 'JetTagger' pipeline type 'function pipeline'
-INFO: [RTGEN 206-104] Estimated max fanout for 'JetTagger' is 145296 from HDL expression: (((1'b0 == ap_block_pp0_stage14_11001_ignoreCallOp200) & (1'b1 == ap_CS_fsm_pp0_stage14)) | ((1'b0 == ap_block_pp0_stage13_11001_ignoreCallOp198) & (1'b1 == ap_CS_fsm_pp0_stage13)) | ((1'b0 == ap_block_pp0_stage12_11001_ignoreCallOp197) & (1'b1 == ap_CS_fsm_pp0_stage12)) | ((1'b0 == ap_block_pp0_stage11_11001_ignoreCallOp196) & (1'b1 == ap_CS_fsm_pp0_stage11)) | ((1'b0 == ap_block_pp0_stage10_11001_ignoreCallOp195) & (1'b1 == ap_CS_fsm_pp0_stage10)) | ((1'b0 == ap_block_pp0_stage9_11001_ignoreCallOp194) & (1'b1 == ap_CS_fsm_pp0_stage9)) | ((1'b0 == ap_block_pp0_stage8_11001_ignoreCallOp193) & (1'b1 == ap_CS_fsm_pp0_stage8)) | ((1'b0 == ap_block_pp0_stage7_11001_ignoreCallOp192) & (1'b1 == ap_CS_fsm_pp0_stage7)) | ((1'b0 == ap_block_pp0_stage6_11001_ignoreCallOp191) & (1'b1 == ap_CS_fsm_pp0_stage6)) | ((1'b0 == ap_block_pp0_stage5_11001_ignoreCallOp190) & (1'b1 == ap_CS_fsm_pp0_stage5)) | ((1'b0 == ap_block_pp0_stage4_11001_ignoreCallOp189) & (1'b1 == ap_CS_fsm_pp0_stage4)) | ((1'b0 == ap_block_pp0_stage3_11001_ignoreCallOp188) 
-    & (1'b1 == ap_CS_fsm_pp0_stage3)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp187) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp186) & (1'b1 == ap_CS_fsm_pp0_stage1)) | ((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp185) & (1'b1 == ap_CS_fsm_pp0_stage0)))
+INFO: [RTGEN 206-104] Estimated max fanout for 'JetTagger' is 126944 from HDL expression: (((1'b1 == ap_CS_fsm_pp0_stage1) & (1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp168)) | ((1'b1 == ap_CS_fsm_pp0_stage0) & (1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp167)) | ((1'b1 == ap_CS_fsm_pp0_stage2) & (1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp169)) | ((1'b1 == ap_CS_fsm_pp0_stage3) & (1'b0 == ap_block_pp0_stage3_11001_ignoreCallOp171)))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'JetTagger'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 17 seconds. CPU system time: 0.71 seconds. Elapsed time: 17.89 seconds; current allocated memory: 10.818 GB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 16.75 seconds. CPU system time: 0.45 seconds. Elapsed time: 17.35 seconds; current allocated memory: 10.832 GB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 29.33 seconds. CPU system time: 0.28 seconds. Elapsed time: 29.74 seconds; current allocated memory: 10.890 GB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 16.43 seconds. CPU system time: 0.71 seconds. Elapsed time: 17.33 seconds; current allocated memory: 10.975 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 17.72 seconds. CPU system time: 0.43 seconds. Elapsed time: 18.31 seconds; current allocated memory: 10.990 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 28.46 seconds. CPU system time: 0.29 seconds. Elapsed time: 28.88 seconds; current allocated memory: 11.096 GB.
 INFO: [VHDL 208-304] Generating VHDL RTL for JetTagger.
 INFO: [VLOG 209-307] Generating Verilog RTL for JetTagger.
 INFO: [HLS 200-789] **** Estimated Fmax: 602.77 MHz
-INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4727.71 seconds. CPU system time: 33.66 seconds. Elapsed time: 4788.41 seconds; current allocated memory: 10.642 GB.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4010.14 seconds. CPU system time: 31.57 seconds. Elapsed time: 4062.64 seconds; current allocated memory: 10.848 GB.

@@ -1,135 +1,141 @@
 Backend: Vitis
 ClockPeriod: 2.8
+ClockUncertainty: 27%
 HLSConfig:
   LayerName:
     avgpool:
       Precision:
-        result: fixed<16,6>
-      Trace: false
+        result: auto
+      Trace: true
     batchnorm_inputs:
-      Precision:
-        bias: fixed<16,6>
-        result: fixed<16,6>
-        scale: fixed<16,6>
-      Trace: false
+      Precision: ap_fixed<15,12,AP_RND,AP_SAT>
+      Trace: true
+      result: ap_fixed<15,12,AP_RND,AP_SAT>
     inputs:
-      Precision:
-        result: fixed<16,6>
-      Trace: false
+      Precision: ap_fixed<15,12,AP_RND,AP_SAT>
+      Trace: true
+      result: ap_fixed<15,12,AP_RND,AP_SAT>
     output_class:
+      Implementation: legacy
       Precision:
-        result: fixed<16,6>
-      Trace: false
+        result: ap_ufixed<8,0,AP_RND,AP_SAT>
+      Trace: true
     output_reg:
       Precision:
-        result: fixed<16,6>
-      Trace: false
+        result: auto
+      Trace: true
     qActivationForPool:
       Precision:
-        result: fixed<18,9,RND_CONV,SAT>
-      Trace: false
+        result: fixed<18,9,RND_CONV,SAT,0>
+      Trace: true
     qActivation_2_class:
       Precision:
-        result: ufixed<9,0,RND_CONV,SAT>
-      Trace: false
+        result: ufixed<9,0,RND_CONV,SAT,0>
+      Trace: true
     qActivation_2_reg:
       Precision:
-        result: ufixed<9,0,RND_CONV,SAT>
-      Trace: false
+        result: ufixed<9,0,RND_CONV,SAT,0>
+      Trace: true
     qActivation_phi_1:
       Precision:
-        result: ufixed<9,0,RND_CONV,SAT>
-      Trace: false
+        result: ufixed<9,0,RND_CONV,SAT,0>
+      Trace: true
     qActivation_phi_2:
       Precision:
-        result: ufixed<9,0,RND_CONV,SAT>
-      Trace: false
+        result: ufixed<9,0,RND_CONV,SAT,0>
+      Trace: true
     qActivation_rho_1:
       Precision:
-        result: ufixed<9,0,RND_CONV,SAT>
-      Trace: false
+        result: ufixed<9,0,RND_CONV,SAT,0>
+      Trace: true
     qDense_2_class:
       Precision:
-        bias: fixed<9,3>
-        result: fixed<16,6>
-        weight: fixed<9,3>
-      Trace: false
+        bias: fixed<9,3,TRN,WRAP,0>
+        result: auto
+        weight: fixed<9,3,TRN,WRAP,0>
+      Trace: true
     qDense_2_class_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_2_reg:
       Precision:
-        bias: fixed<9,3>
-        result: fixed<16,6>
-        weight: fixed<9,3>
-      Trace: false
+        bias: fixed<9,3,TRN,WRAP,0>
+        result: auto
+        weight: fixed<9,3,TRN,WRAP,0>
+      Trace: true
     qDense_2_reg_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_out_class:
       Precision:
-        bias: fixed<16,7>
-        result: fixed<16,6>
-        weight: fixed<16,7>
-      Trace: false
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      Trace: true
     qDense_out_class_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_out_reg:
+      Implementation: latency
       Precision:
-        bias: fixed<16,7>
-        result: fixed<16,6>
-        weight: fixed<16,7>
-      Trace: false
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: ap_fixed<10,6,AP_RND,AP_SAT>
+        weight: fixed<16,7,TRN,WRAP,0>
+      Trace: true
     qDense_out_reg_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_phi_1:
       Precision:
-        bias: fixed<9,3>
-        result: fixed<16,6>
-        weight: fixed<9,3>
-      Trace: false
+        bias: fixed<9,3,TRN,WRAP,0>
+        result: auto
+        weight: fixed<9,3,TRN,WRAP,0>
+      Trace: true
     qDense_phi_1_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_phi_2:
       Precision:
-        bias: fixed<9,3>
-        result: fixed<16,6>
-        weight: fixed<9,3>
-      Trace: false
+        bias: fixed<9,3,TRN,WRAP,0>
+        result: auto
+        weight: fixed<9,3,TRN,WRAP,0>
+      Trace: true
     qDense_phi_2_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
     qDense_rho_1:
       Precision:
-        bias: fixed<9,3>
-        result: fixed<16,6>
-        weight: fixed<9,3>
-      Trace: false
+        bias: fixed<9,3,TRN,WRAP,0>
+        result: auto
+        weight: fixed<9,3,TRN,WRAP,0>
+      Trace: true
     qDense_rho_1_linear:
       Precision:
-        result: fixed<16,6>
+        result: auto
       Trace: false
   Model:
     BramFactor: 1000000000
-    Precision: fixed<16,6>
+    Precision:
+      default: fixed<16,6>
     ReuseFactor: 1
     Strategy: Latency
     TraceOutput: false
 IOType: io_parallel
 InputData: null
-KerasModel: !keras_model 'JetTaggerNN/keras_model.h5'
+KerasModel: !keras_model 'JetTaggerNN/keras_model.keras'
 OutputDir: JetTaggerNN
 OutputPredictions: null
 Part: xcvu9p-flga2104-2L-e
 ProjectName: JetTaggerNN
-Stamp: c938edBE
+Stamp: cB66aEF7
 Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

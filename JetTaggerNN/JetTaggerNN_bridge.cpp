@@ -50,34 +50,35 @@ void collect_trace_output(struct trace_data *c_trace_outputs) {
 // Wrapper of top level function for Python bridge
 void JetTaggerNN_float(
     float inputs[N_INPUT_1_1*N_INPUT_2_1],
-    float layer22_out[N_LAYER_22], float layer24_out[N_LAYER_20]
+    float layer23_out[N_LAYER_22], float layer24_out[N_LAYER_20]
 ) {
 
     input_t inputs_ap[N_INPUT_1_1*N_INPUT_2_1];
     nnet::convert_data<float, input_t, N_INPUT_1_1*N_INPUT_2_1>(inputs, inputs_ap);
 
-    layer22_t layer22_out_ap[N_LAYER_22];
+    layer23_t layer23_out_ap[N_LAYER_22];
     layer24_t layer24_out_ap[N_LAYER_20];
 
-    JetTaggerNN(inputs_ap,layer22_out_ap,layer24_out_ap);
+    JetTaggerNN(inputs_ap,layer23_out_ap,layer24_out_ap);
 
-    nnet::convert_data<layer22_t, float, N_LAYER_22>(layer22_out_ap, layer22_out);
+    nnet::convert_data<layer23_t, float, N_LAYER_22>(layer23_out_ap, layer23_out);
     nnet::convert_data<layer24_t, float, N_LAYER_20>(layer24_out_ap, layer24_out);
 }
 
 void JetTaggerNN_double(
     double inputs[N_INPUT_1_1*N_INPUT_2_1],
-    double layer22_out[N_LAYER_22], double layer24_out[N_LAYER_20]
+    double layer23_out[N_LAYER_22], double layer24_out[N_LAYER_20]
 ) {
+
     input_t inputs_ap[N_INPUT_1_1*N_INPUT_2_1];
     nnet::convert_data<double, input_t, N_INPUT_1_1*N_INPUT_2_1>(inputs, inputs_ap);
 
-    layer22_t layer22_out_ap[N_LAYER_22];
+    layer23_t layer23_out_ap[N_LAYER_22];
     layer24_t layer24_out_ap[N_LAYER_20];
 
-    JetTaggerNN(inputs_ap,layer22_out_ap,layer24_out_ap);
+    JetTaggerNN(inputs_ap,layer23_out_ap,layer24_out_ap);
 
-    nnet::convert_data<layer22_t, double, N_LAYER_22>(layer22_out_ap, layer22_out);
+    nnet::convert_data<layer23_t, double, N_LAYER_22>(layer23_out_ap, layer23_out);
     nnet::convert_data<layer24_t, double, N_LAYER_20>(layer24_out_ap, layer24_out);
 }
 }

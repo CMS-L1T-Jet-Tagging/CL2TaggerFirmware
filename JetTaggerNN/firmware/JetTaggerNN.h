@@ -7,10 +7,12 @@
 
 #include "defines.h"
 
+
 // Prototype of top level function for C-synthesis
 void JetTaggerNN(
     input_t inputs[N_INPUT_1_1*N_INPUT_2_1],
-    layer22_t layer22_out[N_LAYER_22], layer24_t layer24_out[N_LAYER_20]
+    layer23_t layer23_out[N_LAYER_22], layer24_t layer24_out[N_LAYER_20]
 );
+
 
 #endif

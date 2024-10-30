@@ -53,7 +53,7 @@ void pointwise_conv_1d_cl(data_T data[CONFIG_T::in_width * CONFIG_T::n_chan],
     assert(CONFIG_T::filt_width == 1);
 
     // Inlining helps reduce latency, but may also cause timing issues in some cases, use carefully.
-    // #pragma HLS INLINE recursive
+    //#pragma HLS INLINE recursive
 
     // Nothing special to be done for io_parallel implementation
     if (CONFIG_T::strategy == nnet::latency) {

@@ -45,9 +45,9 @@ def convert(model, outname):
 
     
     config["LayerName"]["output_class"]["Precision"]["result"] = class_precision
-    config["LayerName"]["output_reg"]["Precision"]["result"] = reg_precision
-    config["LayerName"]["output_class"]["Implementation"] = "latency"
-    config["LayerName"]["output_reg"]["Implementation"] = "latency"
+    config["LayerName"]["output_class"]["Implementation"] = "legacy"
+    config["LayerName"]["qDense_out_reg"]["Precision"]["result"] = reg_precision
+    config["LayerName"]["qDense_out_reg"]["Implementation"] = "latency"
 
     #Save config  as json file
     print("Saving default config as config.json ...")
@@ -61,8 +61,6 @@ def convert(model, outname):
                                                        hls_config=config,
                                                        output_dir=f'{outname}',
                                                        part='xcvu9p-flga2104-2L-e')
-
-
 
 
     #Compile and build the project

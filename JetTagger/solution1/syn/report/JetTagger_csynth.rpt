@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'JetTagger'
 ================================================================
-* Date:           Mon Oct 21 14:35:38 2024
+* Date:           Mon Oct 21 21:38:11 2024
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        JetTagger
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      167|      167|  0.334 us|  0.334 us|   15|   15|      yes|
+    |      149|      149|  0.298 us|  0.298 us|    4|    4|      yes|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -39,7 +39,7 @@
         |               Instance              |          Module          |   min   |   max   |    min   |    max   | min | max |   Type  |
         +-------------------------------------+--------------------------+---------+---------+----------+----------+-----+-----+---------+
         |grp_prepare_inputs_16u_21u_s_fu_235  |prepare_inputs_16u_21u_s  |       72|       72|  0.144 us|  0.144 us|    1|    1|      yes|
-        |grp_JetTaggerNN_fu_271               |JetTaggerNN               |       91|       91|  0.182 us|  0.182 us|   15|   15|      yes|
+        |grp_JetTaggerNN_fu_271               |JetTaggerNN               |       73|       73|  0.146 us|  0.146 us|    4|    4|      yes|
         +-------------------------------------+--------------------------+---------+---------+----------+----------+-----+-----+---------+
 
         * Loop: 
@@ -57,20 +57,20 @@
 |DSP                  |        -|      -|        -|        -|     -|
 |Expression           |        -|      -|        0|       94|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
-|Instance             |       10|   2011|   563239|   870992|     -|
+|Instance             |       10|   2627|   604936|   861592|     -|
 |Memory               |        -|      -|        -|        -|     -|
-|Multiplexer          |        -|      -|        -|       83|     -|
-|Register             |        -|      -|     5534|       32|     -|
+|Multiplexer          |        -|      -|        -|       44|     -|
+|Register             |        -|      -|     5293|       32|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |       10|   2011|   568773|   871201|     0|
+|Total                |       10|   2627|   610229|   861762|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization SLR (%)  |       ~0|     65|       65|      201|     0|
+|Utilization SLR (%)  |       ~0|     85|       70|      199|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available            |     5376|  12288|  3456000|  1728000|  1280|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization (%)      |       ~0|     16|       16|       50|     0|
+|Utilization (%)      |       ~0|     21|       17|       49|     0|
 +---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
@@ -78,10 +78,10 @@
     +-------------------------------------+--------------------------+---------+------+--------+--------+-----+
     |               Instance              |          Module          | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
     +-------------------------------------+--------------------------+---------+------+--------+--------+-----+
-    |grp_JetTaggerNN_fu_271               |JetTaggerNN               |       10|   907|  436678|  762288|    0|
-    |grp_prepare_inputs_16u_21u_s_fu_235  |prepare_inputs_16u_21u_s  |        0|  1104|  126561|  108704|    0|
+    |grp_JetTaggerNN_fu_271               |JetTaggerNN               |       10|  1571|  490071|  765368|    0|
+    |grp_prepare_inputs_16u_21u_s_fu_235  |prepare_inputs_16u_21u_s  |        0|  1056|  114865|   96224|    0|
     +-------------------------------------+--------------------------+---------+------+--------+--------+-----+
-    |Total                                |                          |       10|  2011|  563239|  870992|    0|
+    |Total                                |                          |       10|  2627|  604936|  861592|    0|
     +-------------------------------------+--------------------------+---------+------+--------+--------+-----+
 
     * DSP: 
@@ -97,24 +97,24 @@
     +---------------------------+----------+----+---+----+------------+------------+
     |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------+----------+----+---+----+------------+------------+
-    |add_ln113_fu_2014_p2       |         +|   0|  0|  15|           8|           8|
-    |and_ln113_1_fu_2073_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln113_2_fu_2115_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln113_fu_2067_p2       |       and|   0|  0|   2|           1|           1|
-    |icmp_ln113_1_fu_2028_p2    |      icmp|   0|  0|  13|           6|           1|
-    |icmp_ln113_fu_2023_p2      |      icmp|   0|  0|  13|           6|           2|
-    |or_ln113_1_fu_2120_p2      |        or|   0|  0|   2|           1|           1|
-    |or_ln113_fu_2062_p2        |        or|   0|  0|   2|           1|           1|
-    |select_ln113_1_fu_2078_p3  |    select|   0|  0|   7|           1|           7|
-    |select_ln113_2_fu_2055_p3  |    select|   0|  0|   2|           1|           1|
-    |select_ln113_3_fu_2090_p3  |    select|   0|  0|   8|           1|           8|
-    |select_ln113_4_fu_2097_p3  |    select|   0|  0|   8|           1|           8|
-    |select_ln113_5_fu_2126_p3  |    select|   0|  0|   8|           1|           8|
-    |select_ln113_fu_2047_p3    |    select|   0|  0|   2|           1|           1|
+    |add_ln113_fu_1934_p2       |         +|   0|  0|  15|           8|           8|
+    |and_ln113_1_fu_1993_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln113_2_fu_2035_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln113_fu_1987_p2       |       and|   0|  0|   2|           1|           1|
+    |icmp_ln113_1_fu_1948_p2    |      icmp|   0|  0|  13|           6|           1|
+    |icmp_ln113_fu_1943_p2      |      icmp|   0|  0|  13|           6|           2|
+    |or_ln113_1_fu_2040_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln113_fu_1982_p2        |        or|   0|  0|   2|           1|           1|
+    |select_ln113_1_fu_1998_p3  |    select|   0|  0|   7|           1|           7|
+    |select_ln113_2_fu_1975_p3  |    select|   0|  0|   2|           1|           1|
+    |select_ln113_3_fu_2010_p3  |    select|   0|  0|   8|           1|           8|
+    |select_ln113_4_fu_2017_p3  |    select|   0|  0|   8|           1|           8|
+    |select_ln113_5_fu_2046_p3  |    select|   0|  0|   8|           1|           8|
+    |select_ln113_fu_1967_p3    |    select|   0|  0|   2|           1|           1|
     |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
-    |xor_ln113_1_fu_2110_p2     |       xor|   0|  0|   2|           2|           1|
-    |xor_ln113_2_fu_2041_p2     |       xor|   0|  0|   2|           1|           2|
-    |xor_ln113_fu_2105_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln113_1_fu_2030_p2     |       xor|   0|  0|   2|           2|           1|
+    |xor_ln113_2_fu_1961_p2     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln113_fu_2025_p2       |       xor|   0|  0|   2|           1|           2|
     +---------------------------+----------+----+---+----+------------+------------+
     |Total                      |          |   0|  0|  94|          36|          56|
     +---------------------------+----------+----+---+----+------------+------------+
@@ -123,26 +123,52 @@
     +--------------------------+----+-----------+-----+-----------+
     |           Name           | LUT| Input Size| Bits| Total Bits|
     +--------------------------+----+-----------+-----+-----------+
-    |ap_NS_fsm                 |  65|         16|    1|         16|
+    |ap_NS_fsm                 |  26|          5|    1|          5|
     |ap_enable_reg_pp0_iter0   |   9|          2|    1|          2|
-    |ap_enable_reg_pp0_iter11  |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter37  |   9|          2|    1|          2|
     +--------------------------+----+-----------+-----+-----------+
-    |Total                     |  83|         20|    3|         20|
+    |Total                     |  44|          9|    3|          9|
     +--------------------------+----+-----------+-----+-----------+
 
     * Register: 
     +-------------------------------------+----+----+-----+-----------+
     |                 Name                | FF | LUT| Bits| Const Bits|
     +-------------------------------------+----+----+-----+-----------+
-    |add_ln113_reg_3946                   |   8|   0|    8|          0|
-    |and_ln113_1_reg_3956                 |   1|   0|    1|          0|
-    |ap_CS_fsm                            |  15|   0|   15|          0|
+    |add_ln113_reg_3786                   |   8|   0|    8|          0|
+    |and_ln113_1_reg_3796                 |   1|   0|    1|          0|
+    |ap_CS_fsm                            |   4|   0|    4|          0|
     |ap_enable_reg_pp0_iter0_reg          |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1              |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter10             |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter11             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter12             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter13             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter14             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter15             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter16             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter17             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter18             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter19             |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter2              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter20             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter21             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter22             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter23             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter24             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter25             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter26             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter27             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter28             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter29             |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter3              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter30             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter31             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter32             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter33             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter34             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter35             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter36             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter37             |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter4              |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter5              |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter6              |   1|   0|    1|          0|
@@ -150,354 +176,338 @@
     |ap_enable_reg_pp0_iter8              |   1|   0|    1|          0|
     |ap_enable_reg_pp0_iter9              |   1|   0|    1|          0|
     |grp_JetTaggerNN_fu_271_ap_start_reg  |   1|   0|    1|          0|
-    |nn_output_pt_reg_reg_3912            |  16|   0|   16|          0|
-    |or_ln113_reg_3951                    |   1|   0|    1|          0|
-    |select_ln113_4_reg_3961              |   8|   0|    8|          0|
-    |tagger_input_100_reg_2732            |  16|   0|   16|          0|
-    |tagger_input_101_reg_2737            |  16|   0|   16|          0|
-    |tagger_input_102_reg_2742            |  16|   0|   16|          0|
-    |tagger_input_103_reg_2747            |  16|   0|   16|          0|
-    |tagger_input_104_reg_2752            |  16|   0|   16|          0|
-    |tagger_input_105_reg_2757            |  16|   0|   16|          0|
-    |tagger_input_106_reg_2762            |  16|   0|   16|          0|
-    |tagger_input_107_reg_2767            |  16|   0|   16|          0|
-    |tagger_input_108_reg_2772            |  16|   0|   16|          0|
-    |tagger_input_109_reg_2777            |  16|   0|   16|          0|
-    |tagger_input_10_reg_2282             |  16|   0|   16|          0|
-    |tagger_input_110_reg_2782            |  16|   0|   16|          0|
-    |tagger_input_111_reg_2787            |  16|   0|   16|          0|
-    |tagger_input_112_reg_2792            |  16|   0|   16|          0|
-    |tagger_input_113_reg_2797            |  16|   0|   16|          0|
-    |tagger_input_114_reg_2802            |  16|   0|   16|          0|
-    |tagger_input_115_reg_2807            |  16|   0|   16|          0|
-    |tagger_input_116_reg_2812            |  16|   0|   16|          0|
-    |tagger_input_117_reg_2817            |  16|   0|   16|          0|
-    |tagger_input_118_reg_2822            |  16|   0|   16|          0|
-    |tagger_input_119_reg_2827            |  16|   0|   16|          0|
-    |tagger_input_11_reg_2287             |  16|   0|   16|          0|
-    |tagger_input_120_reg_2832            |  16|   0|   16|          0|
-    |tagger_input_121_reg_2837            |  16|   0|   16|          0|
-    |tagger_input_122_reg_2842            |  16|   0|   16|          0|
-    |tagger_input_123_reg_2847            |  16|   0|   16|          0|
-    |tagger_input_124_reg_2852            |  16|   0|   16|          0|
-    |tagger_input_125_reg_2857            |  16|   0|   16|          0|
-    |tagger_input_126_reg_2862            |  16|   0|   16|          0|
-    |tagger_input_127_reg_2867            |  16|   0|   16|          0|
-    |tagger_input_128_reg_2872            |  16|   0|   16|          0|
-    |tagger_input_129_reg_2877            |  16|   0|   16|          0|
-    |tagger_input_12_reg_2292             |  16|   0|   16|          0|
-    |tagger_input_130_reg_2882            |  16|   0|   16|          0|
-    |tagger_input_131_reg_2887            |  16|   0|   16|          0|
-    |tagger_input_132_reg_2892            |  16|   0|   16|          0|
-    |tagger_input_133_reg_2897            |  16|   0|   16|          0|
-    |tagger_input_134_reg_2902            |  16|   0|   16|          0|
-    |tagger_input_135_reg_2907            |  16|   0|   16|          0|
-    |tagger_input_136_reg_2912            |  16|   0|   16|          0|
-    |tagger_input_137_reg_2917            |  16|   0|   16|          0|
-    |tagger_input_138_reg_2922            |  16|   0|   16|          0|
-    |tagger_input_139_reg_2927            |  16|   0|   16|          0|
-    |tagger_input_13_reg_2297             |  16|   0|   16|          0|
-    |tagger_input_140_reg_2932            |  16|   0|   16|          0|
-    |tagger_input_141_reg_2937            |  16|   0|   16|          0|
-    |tagger_input_142_reg_2942            |  16|   0|   16|          0|
-    |tagger_input_143_reg_2947            |  16|   0|   16|          0|
-    |tagger_input_144_reg_2952            |  16|   0|   16|          0|
-    |tagger_input_145_reg_2957            |  16|   0|   16|          0|
-    |tagger_input_146_reg_2962            |  16|   0|   16|          0|
-    |tagger_input_147_reg_2967            |  16|   0|   16|          0|
-    |tagger_input_148_reg_2972            |  16|   0|   16|          0|
-    |tagger_input_149_reg_2977            |  16|   0|   16|          0|
-    |tagger_input_14_reg_2302             |  16|   0|   16|          0|
-    |tagger_input_150_reg_2982            |  16|   0|   16|          0|
-    |tagger_input_151_reg_2987            |  16|   0|   16|          0|
-    |tagger_input_152_reg_2992            |  16|   0|   16|          0|
-    |tagger_input_153_reg_2997            |  16|   0|   16|          0|
-    |tagger_input_154_reg_3002            |  16|   0|   16|          0|
-    |tagger_input_155_reg_3007            |  16|   0|   16|          0|
-    |tagger_input_156_reg_3012            |  16|   0|   16|          0|
-    |tagger_input_157_reg_3017            |  16|   0|   16|          0|
-    |tagger_input_158_reg_3022            |  16|   0|   16|          0|
-    |tagger_input_159_reg_3027            |  16|   0|   16|          0|
-    |tagger_input_15_reg_2307             |  16|   0|   16|          0|
-    |tagger_input_160_reg_3032            |  16|   0|   16|          0|
-    |tagger_input_161_reg_3037            |  16|   0|   16|          0|
-    |tagger_input_162_reg_3042            |  16|   0|   16|          0|
-    |tagger_input_163_reg_3047            |  16|   0|   16|          0|
-    |tagger_input_164_reg_3052            |  16|   0|   16|          0|
-    |tagger_input_165_reg_3057            |  16|   0|   16|          0|
-    |tagger_input_166_reg_3062            |  16|   0|   16|          0|
-    |tagger_input_167_reg_3067            |  16|   0|   16|          0|
-    |tagger_input_168_reg_3072            |  16|   0|   16|          0|
-    |tagger_input_169_reg_3077            |  16|   0|   16|          0|
-    |tagger_input_16_reg_2312             |  16|   0|   16|          0|
-    |tagger_input_170_reg_3082            |  16|   0|   16|          0|
-    |tagger_input_171_reg_3087            |  16|   0|   16|          0|
-    |tagger_input_172_reg_3092            |  16|   0|   16|          0|
-    |tagger_input_173_reg_3097            |  16|   0|   16|          0|
-    |tagger_input_174_reg_3102            |  16|   0|   16|          0|
-    |tagger_input_175_reg_3107            |  16|   0|   16|          0|
-    |tagger_input_176_reg_3112            |  16|   0|   16|          0|
-    |tagger_input_177_reg_3117            |  16|   0|   16|          0|
-    |tagger_input_178_reg_3122            |  16|   0|   16|          0|
-    |tagger_input_179_reg_3127            |  16|   0|   16|          0|
-    |tagger_input_17_reg_2317             |  16|   0|   16|          0|
-    |tagger_input_180_reg_3132            |  16|   0|   16|          0|
-    |tagger_input_181_reg_3137            |  16|   0|   16|          0|
-    |tagger_input_182_reg_3142            |  16|   0|   16|          0|
-    |tagger_input_183_reg_3147            |  16|   0|   16|          0|
-    |tagger_input_184_reg_3152            |  16|   0|   16|          0|
-    |tagger_input_185_reg_3157            |  16|   0|   16|          0|
-    |tagger_input_186_reg_3162            |  16|   0|   16|          0|
-    |tagger_input_187_reg_3167            |  16|   0|   16|          0|
-    |tagger_input_188_reg_3172            |  16|   0|   16|          0|
-    |tagger_input_189_reg_3177            |  16|   0|   16|          0|
-    |tagger_input_18_reg_2322             |  16|   0|   16|          0|
-    |tagger_input_190_reg_3182            |  16|   0|   16|          0|
-    |tagger_input_191_reg_3187            |  16|   0|   16|          0|
-    |tagger_input_192_reg_3192            |  16|   0|   16|          0|
-    |tagger_input_193_reg_3197            |  16|   0|   16|          0|
-    |tagger_input_194_reg_3202            |  16|   0|   16|          0|
-    |tagger_input_195_reg_3207            |  16|   0|   16|          0|
-    |tagger_input_196_reg_3212            |  16|   0|   16|          0|
-    |tagger_input_197_reg_3217            |  16|   0|   16|          0|
-    |tagger_input_198_reg_3222            |  16|   0|   16|          0|
-    |tagger_input_199_reg_3227            |  16|   0|   16|          0|
-    |tagger_input_19_reg_2327             |  16|   0|   16|          0|
-    |tagger_input_1_reg_2237              |  16|   0|   16|          0|
-    |tagger_input_200_reg_3232            |  16|   0|   16|          0|
-    |tagger_input_201_reg_3237            |  16|   0|   16|          0|
-    |tagger_input_202_reg_3242            |  16|   0|   16|          0|
-    |tagger_input_203_reg_3247            |  16|   0|   16|          0|
-    |tagger_input_204_reg_3252            |  16|   0|   16|          0|
-    |tagger_input_205_reg_3257            |  16|   0|   16|          0|
-    |tagger_input_206_reg_3262            |  16|   0|   16|          0|
-    |tagger_input_207_reg_3267            |  16|   0|   16|          0|
-    |tagger_input_208_reg_3272            |  16|   0|   16|          0|
-    |tagger_input_209_reg_3277            |  16|   0|   16|          0|
-    |tagger_input_20_reg_2332             |  16|   0|   16|          0|
-    |tagger_input_210_reg_3282            |  16|   0|   16|          0|
-    |tagger_input_211_reg_3287            |  16|   0|   16|          0|
-    |tagger_input_212_reg_3292            |  16|   0|   16|          0|
-    |tagger_input_213_reg_3297            |  16|   0|   16|          0|
-    |tagger_input_214_reg_3302            |  16|   0|   16|          0|
-    |tagger_input_215_reg_3307            |  16|   0|   16|          0|
-    |tagger_input_216_reg_3312            |  16|   0|   16|          0|
-    |tagger_input_217_reg_3317            |  16|   0|   16|          0|
-    |tagger_input_218_reg_3322            |  16|   0|   16|          0|
-    |tagger_input_219_reg_3327            |  16|   0|   16|          0|
-    |tagger_input_21_reg_2337             |  16|   0|   16|          0|
-    |tagger_input_220_reg_3332            |  16|   0|   16|          0|
-    |tagger_input_221_reg_3337            |  16|   0|   16|          0|
-    |tagger_input_222_reg_3342            |  16|   0|   16|          0|
-    |tagger_input_223_reg_3347            |  16|   0|   16|          0|
-    |tagger_input_224_reg_3352            |  16|   0|   16|          0|
-    |tagger_input_225_reg_3357            |  16|   0|   16|          0|
-    |tagger_input_226_reg_3362            |  16|   0|   16|          0|
-    |tagger_input_227_reg_3367            |  16|   0|   16|          0|
-    |tagger_input_228_reg_3372            |  16|   0|   16|          0|
-    |tagger_input_229_reg_3377            |  16|   0|   16|          0|
-    |tagger_input_22_reg_2342             |  16|   0|   16|          0|
-    |tagger_input_230_reg_3382            |  16|   0|   16|          0|
-    |tagger_input_231_reg_3387            |  16|   0|   16|          0|
-    |tagger_input_232_reg_3392            |  16|   0|   16|          0|
-    |tagger_input_233_reg_3397            |  16|   0|   16|          0|
-    |tagger_input_234_reg_3402            |  16|   0|   16|          0|
-    |tagger_input_235_reg_3407            |  16|   0|   16|          0|
-    |tagger_input_236_reg_3412            |  16|   0|   16|          0|
-    |tagger_input_237_reg_3417            |  16|   0|   16|          0|
-    |tagger_input_238_reg_3422            |  16|   0|   16|          0|
-    |tagger_input_239_reg_3427            |  16|   0|   16|          0|
-    |tagger_input_23_reg_2347             |  16|   0|   16|          0|
-    |tagger_input_240_reg_3432            |  16|   0|   16|          0|
-    |tagger_input_241_reg_3437            |  16|   0|   16|          0|
-    |tagger_input_242_reg_3442            |  16|   0|   16|          0|
-    |tagger_input_243_reg_3447            |  16|   0|   16|          0|
-    |tagger_input_244_reg_3452            |  16|   0|   16|          0|
-    |tagger_input_245_reg_3457            |  16|   0|   16|          0|
-    |tagger_input_246_reg_3462            |  16|   0|   16|          0|
-    |tagger_input_247_reg_3467            |  16|   0|   16|          0|
-    |tagger_input_248_reg_3472            |  16|   0|   16|          0|
-    |tagger_input_249_reg_3477            |  16|   0|   16|          0|
-    |tagger_input_24_reg_2352             |  16|   0|   16|          0|
-    |tagger_input_250_reg_3482            |  16|   0|   16|          0|
-    |tagger_input_251_reg_3487            |  16|   0|   16|          0|
-    |tagger_input_252_reg_3492            |  16|   0|   16|          0|
-    |tagger_input_253_reg_3497            |  16|   0|   16|          0|
-    |tagger_input_254_reg_3502            |  16|   0|   16|          0|
-    |tagger_input_255_reg_3507            |  16|   0|   16|          0|
-    |tagger_input_256_reg_3512            |  16|   0|   16|          0|
-    |tagger_input_257_reg_3517            |  16|   0|   16|          0|
-    |tagger_input_258_reg_3522            |  16|   0|   16|          0|
-    |tagger_input_259_reg_3527            |  16|   0|   16|          0|
-    |tagger_input_25_reg_2357             |  16|   0|   16|          0|
-    |tagger_input_260_reg_3532            |  16|   0|   16|          0|
-    |tagger_input_261_reg_3537            |  16|   0|   16|          0|
-    |tagger_input_262_reg_3542            |  16|   0|   16|          0|
-    |tagger_input_263_reg_3547            |  16|   0|   16|          0|
-    |tagger_input_264_reg_3552            |  16|   0|   16|          0|
-    |tagger_input_265_reg_3557            |  16|   0|   16|          0|
-    |tagger_input_266_reg_3562            |  16|   0|   16|          0|
-    |tagger_input_267_reg_3567            |  16|   0|   16|          0|
-    |tagger_input_268_reg_3572            |  16|   0|   16|          0|
-    |tagger_input_269_reg_3577            |  16|   0|   16|          0|
-    |tagger_input_26_reg_2362             |  16|   0|   16|          0|
-    |tagger_input_270_reg_3582            |  16|   0|   16|          0|
-    |tagger_input_271_reg_3587            |  16|   0|   16|          0|
-    |tagger_input_272_reg_3592            |  16|   0|   16|          0|
-    |tagger_input_273_reg_3597            |  16|   0|   16|          0|
-    |tagger_input_274_reg_3602            |  16|   0|   16|          0|
-    |tagger_input_275_reg_3607            |  16|   0|   16|          0|
-    |tagger_input_276_reg_3612            |  16|   0|   16|          0|
-    |tagger_input_277_reg_3617            |  16|   0|   16|          0|
-    |tagger_input_278_reg_3622            |  16|   0|   16|          0|
-    |tagger_input_279_reg_3627            |  16|   0|   16|          0|
-    |tagger_input_27_reg_2367             |  16|   0|   16|          0|
-    |tagger_input_280_reg_3632            |  16|   0|   16|          0|
-    |tagger_input_281_reg_3637            |  16|   0|   16|          0|
-    |tagger_input_282_reg_3642            |  16|   0|   16|          0|
-    |tagger_input_283_reg_3647            |  16|   0|   16|          0|
-    |tagger_input_284_reg_3652            |  16|   0|   16|          0|
-    |tagger_input_285_reg_3657            |  16|   0|   16|          0|
-    |tagger_input_286_reg_3662            |  16|   0|   16|          0|
-    |tagger_input_287_reg_3667            |  16|   0|   16|          0|
-    |tagger_input_288_reg_3672            |  16|   0|   16|          0|
-    |tagger_input_289_reg_3677            |  16|   0|   16|          0|
-    |tagger_input_28_reg_2372             |  16|   0|   16|          0|
-    |tagger_input_290_reg_3682            |  16|   0|   16|          0|
-    |tagger_input_291_reg_3687            |  16|   0|   16|          0|
-    |tagger_input_292_reg_3692            |  16|   0|   16|          0|
-    |tagger_input_293_reg_3697            |  16|   0|   16|          0|
-    |tagger_input_294_reg_3702            |  16|   0|   16|          0|
-    |tagger_input_295_reg_3707            |  16|   0|   16|          0|
-    |tagger_input_296_reg_3712            |  16|   0|   16|          0|
-    |tagger_input_297_reg_3717            |  16|   0|   16|          0|
-    |tagger_input_298_reg_3722            |  16|   0|   16|          0|
-    |tagger_input_299_reg_3727            |  16|   0|   16|          0|
-    |tagger_input_29_reg_2377             |  16|   0|   16|          0|
-    |tagger_input_2_reg_2242              |  16|   0|   16|          0|
-    |tagger_input_300_reg_3732            |  16|   0|   16|          0|
-    |tagger_input_301_reg_3737            |  16|   0|   16|          0|
-    |tagger_input_302_reg_3742            |  16|   0|   16|          0|
-    |tagger_input_303_reg_3747            |  16|   0|   16|          0|
-    |tagger_input_304_reg_3752            |  16|   0|   16|          0|
-    |tagger_input_305_reg_3757            |  16|   0|   16|          0|
-    |tagger_input_306_reg_3762            |  16|   0|   16|          0|
-    |tagger_input_307_reg_3767            |  16|   0|   16|          0|
-    |tagger_input_308_reg_3772            |  16|   0|   16|          0|
-    |tagger_input_309_reg_3777            |  16|   0|   16|          0|
-    |tagger_input_30_reg_2382             |  16|   0|   16|          0|
-    |tagger_input_310_reg_3782            |  16|   0|   16|          0|
-    |tagger_input_311_reg_3787            |  16|   0|   16|          0|
-    |tagger_input_312_reg_3792            |  16|   0|   16|          0|
-    |tagger_input_313_reg_3797            |  16|   0|   16|          0|
-    |tagger_input_314_reg_3802            |  16|   0|   16|          0|
-    |tagger_input_315_reg_3807            |  16|   0|   16|          0|
-    |tagger_input_316_reg_3812            |  16|   0|   16|          0|
-    |tagger_input_317_reg_3817            |  16|   0|   16|          0|
-    |tagger_input_318_reg_3822            |  16|   0|   16|          0|
-    |tagger_input_319_reg_3827            |  16|   0|   16|          0|
-    |tagger_input_31_reg_2387             |  16|   0|   16|          0|
-    |tagger_input_320_reg_3832            |  16|   0|   16|          0|
-    |tagger_input_321_reg_3837            |  16|   0|   16|          0|
-    |tagger_input_322_reg_3842            |  16|   0|   16|          0|
-    |tagger_input_323_reg_3847            |  16|   0|   16|          0|
-    |tagger_input_324_reg_3852            |  16|   0|   16|          0|
-    |tagger_input_325_reg_3857            |  16|   0|   16|          0|
-    |tagger_input_326_reg_3862            |  16|   0|   16|          0|
-    |tagger_input_327_reg_3867            |  16|   0|   16|          0|
-    |tagger_input_328_reg_3872            |  16|   0|   16|          0|
-    |tagger_input_329_reg_3877            |  16|   0|   16|          0|
-    |tagger_input_32_reg_2392             |  16|   0|   16|          0|
-    |tagger_input_330_reg_3882            |  16|   0|   16|          0|
-    |tagger_input_331_reg_3887            |  16|   0|   16|          0|
-    |tagger_input_332_reg_3892            |  16|   0|   16|          0|
-    |tagger_input_333_reg_3897            |  16|   0|   16|          0|
-    |tagger_input_334_reg_3902            |  16|   0|   16|          0|
-    |tagger_input_335_reg_3907            |  16|   0|   16|          0|
-    |tagger_input_33_reg_2397             |  16|   0|   16|          0|
-    |tagger_input_34_reg_2402             |  16|   0|   16|          0|
-    |tagger_input_35_reg_2407             |  16|   0|   16|          0|
-    |tagger_input_36_reg_2412             |  16|   0|   16|          0|
-    |tagger_input_37_reg_2417             |  16|   0|   16|          0|
-    |tagger_input_38_reg_2422             |  16|   0|   16|          0|
-    |tagger_input_39_reg_2427             |  16|   0|   16|          0|
-    |tagger_input_3_reg_2247              |  16|   0|   16|          0|
-    |tagger_input_40_reg_2432             |  16|   0|   16|          0|
-    |tagger_input_41_reg_2437             |  16|   0|   16|          0|
-    |tagger_input_42_reg_2442             |  16|   0|   16|          0|
-    |tagger_input_43_reg_2447             |  16|   0|   16|          0|
-    |tagger_input_44_reg_2452             |  16|   0|   16|          0|
-    |tagger_input_45_reg_2457             |  16|   0|   16|          0|
-    |tagger_input_46_reg_2462             |  16|   0|   16|          0|
-    |tagger_input_47_reg_2467             |  16|   0|   16|          0|
-    |tagger_input_48_reg_2472             |  16|   0|   16|          0|
-    |tagger_input_49_reg_2477             |  16|   0|   16|          0|
-    |tagger_input_4_reg_2252              |  16|   0|   16|          0|
-    |tagger_input_50_reg_2482             |  16|   0|   16|          0|
-    |tagger_input_51_reg_2487             |  16|   0|   16|          0|
-    |tagger_input_52_reg_2492             |  16|   0|   16|          0|
-    |tagger_input_53_reg_2497             |  16|   0|   16|          0|
-    |tagger_input_54_reg_2502             |  16|   0|   16|          0|
-    |tagger_input_55_reg_2507             |  16|   0|   16|          0|
-    |tagger_input_56_reg_2512             |  16|   0|   16|          0|
-    |tagger_input_57_reg_2517             |  16|   0|   16|          0|
-    |tagger_input_58_reg_2522             |  16|   0|   16|          0|
-    |tagger_input_59_reg_2527             |  16|   0|   16|          0|
-    |tagger_input_5_reg_2257              |  16|   0|   16|          0|
-    |tagger_input_60_reg_2532             |  16|   0|   16|          0|
-    |tagger_input_61_reg_2537             |  16|   0|   16|          0|
-    |tagger_input_62_reg_2542             |  16|   0|   16|          0|
-    |tagger_input_63_reg_2547             |  16|   0|   16|          0|
-    |tagger_input_64_reg_2552             |  16|   0|   16|          0|
-    |tagger_input_65_reg_2557             |  16|   0|   16|          0|
-    |tagger_input_66_reg_2562             |  16|   0|   16|          0|
-    |tagger_input_67_reg_2567             |  16|   0|   16|          0|
-    |tagger_input_68_reg_2572             |  16|   0|   16|          0|
-    |tagger_input_69_reg_2577             |  16|   0|   16|          0|
-    |tagger_input_6_reg_2262              |  16|   0|   16|          0|
-    |tagger_input_70_reg_2582             |  16|   0|   16|          0|
-    |tagger_input_71_reg_2587             |  16|   0|   16|          0|
-    |tagger_input_72_reg_2592             |  16|   0|   16|          0|
-    |tagger_input_73_reg_2597             |  16|   0|   16|          0|
-    |tagger_input_74_reg_2602             |  16|   0|   16|          0|
-    |tagger_input_75_reg_2607             |  16|   0|   16|          0|
-    |tagger_input_76_reg_2612             |  16|   0|   16|          0|
-    |tagger_input_77_reg_2617             |  16|   0|   16|          0|
-    |tagger_input_78_reg_2622             |  16|   0|   16|          0|
-    |tagger_input_79_reg_2627             |  16|   0|   16|          0|
-    |tagger_input_7_reg_2267              |  16|   0|   16|          0|
-    |tagger_input_80_reg_2632             |  16|   0|   16|          0|
-    |tagger_input_81_reg_2637             |  16|   0|   16|          0|
-    |tagger_input_82_reg_2642             |  16|   0|   16|          0|
-    |tagger_input_83_reg_2647             |  16|   0|   16|          0|
-    |tagger_input_84_reg_2652             |  16|   0|   16|          0|
-    |tagger_input_85_reg_2657             |  16|   0|   16|          0|
-    |tagger_input_86_reg_2662             |  16|   0|   16|          0|
-    |tagger_input_87_reg_2667             |  16|   0|   16|          0|
-    |tagger_input_88_reg_2672             |  16|   0|   16|          0|
-    |tagger_input_89_reg_2677             |  16|   0|   16|          0|
-    |tagger_input_8_reg_2272              |  16|   0|   16|          0|
-    |tagger_input_90_reg_2682             |  16|   0|   16|          0|
-    |tagger_input_91_reg_2687             |  16|   0|   16|          0|
-    |tagger_input_92_reg_2692             |  16|   0|   16|          0|
-    |tagger_input_93_reg_2697             |  16|   0|   16|          0|
-    |tagger_input_94_reg_2702             |  16|   0|   16|          0|
-    |tagger_input_95_reg_2707             |  16|   0|   16|          0|
-    |tagger_input_96_reg_2712             |  16|   0|   16|          0|
-    |tagger_input_97_reg_2717             |  16|   0|   16|          0|
-    |tagger_input_98_reg_2722             |  16|   0|   16|          0|
-    |tagger_input_99_reg_2727             |  16|   0|   16|          0|
-    |tagger_input_9_reg_2277              |  16|   0|   16|          0|
-    |tagger_input_reg_2232                |  16|   0|   16|          0|
-    |tmp4_reg_3940                        |   6|   0|    6|          0|
-    |tmp_6008_reg_3929                    |   1|   0|    1|          0|
-    |tmp_6009_reg_3935                    |   1|   0|    1|          0|
-    |tmp_reg_3917                         |   1|   0|    1|          0|
-    |token_d_read_reg_2227                |  15|   0|   15|          0|
-    |trunc_ln_reg_3924                    |   8|   0|    8|          0|
-    |token_d_read_reg_2227                |  64|  32|   15|          0|
+    |nn_output_pt_reg_reg_3752            |  16|   0|   16|          0|
+    |or_ln113_reg_3791                    |   1|   0|    1|          0|
+    |select_ln113_4_reg_3801              |   8|   0|    8|          0|
+    |tagger_input_100_reg_2657            |  16|   0|   16|          0|
+    |tagger_input_101_reg_2662            |  16|   0|   16|          0|
+    |tagger_input_102_reg_2667            |  16|   0|   16|          0|
+    |tagger_input_103_reg_2672            |  16|   0|   16|          0|
+    |tagger_input_104_reg_2677            |  16|   0|   16|          0|
+    |tagger_input_105_reg_2682            |  16|   0|   16|          0|
+    |tagger_input_106_reg_2687            |  16|   0|   16|          0|
+    |tagger_input_107_reg_2692            |  16|   0|   16|          0|
+    |tagger_input_108_reg_2697            |  16|   0|   16|          0|
+    |tagger_input_109_reg_2702            |  16|   0|   16|          0|
+    |tagger_input_10_reg_2207             |  16|   0|   16|          0|
+    |tagger_input_110_reg_2707            |  16|   0|   16|          0|
+    |tagger_input_111_reg_2712            |  16|   0|   16|          0|
+    |tagger_input_112_reg_2717            |  16|   0|   16|          0|
+    |tagger_input_113_reg_2722            |  16|   0|   16|          0|
+    |tagger_input_114_reg_2727            |  16|   0|   16|          0|
+    |tagger_input_115_reg_2732            |  16|   0|   16|          0|
+    |tagger_input_116_reg_2737            |  16|   0|   16|          0|
+    |tagger_input_117_reg_2742            |  16|   0|   16|          0|
+    |tagger_input_118_reg_2747            |  16|   0|   16|          0|
+    |tagger_input_119_reg_2752            |  16|   0|   16|          0|
+    |tagger_input_11_reg_2212             |  16|   0|   16|          0|
+    |tagger_input_120_reg_2757            |  16|   0|   16|          0|
+    |tagger_input_121_reg_2762            |  16|   0|   16|          0|
+    |tagger_input_122_reg_2767            |  16|   0|   16|          0|
+    |tagger_input_123_reg_2772            |  16|   0|   16|          0|
+    |tagger_input_124_reg_2777            |  16|   0|   16|          0|
+    |tagger_input_125_reg_2782            |  16|   0|   16|          0|
+    |tagger_input_126_reg_2787            |  16|   0|   16|          0|
+    |tagger_input_127_reg_2792            |  16|   0|   16|          0|
+    |tagger_input_128_reg_2797            |  16|   0|   16|          0|
+    |tagger_input_129_reg_2802            |  16|   0|   16|          0|
+    |tagger_input_12_reg_2217             |  16|   0|   16|          0|
+    |tagger_input_130_reg_2807            |  16|   0|   16|          0|
+    |tagger_input_131_reg_2812            |  16|   0|   16|          0|
+    |tagger_input_132_reg_2817            |  16|   0|   16|          0|
+    |tagger_input_133_reg_2822            |  16|   0|   16|          0|
+    |tagger_input_134_reg_2827            |  16|   0|   16|          0|
+    |tagger_input_135_reg_2832            |  16|   0|   16|          0|
+    |tagger_input_136_reg_2837            |  16|   0|   16|          0|
+    |tagger_input_137_reg_2842            |  16|   0|   16|          0|
+    |tagger_input_138_reg_2847            |  16|   0|   16|          0|
+    |tagger_input_139_reg_2852            |  16|   0|   16|          0|
+    |tagger_input_13_reg_2222             |  16|   0|   16|          0|
+    |tagger_input_140_reg_2857            |  16|   0|   16|          0|
+    |tagger_input_141_reg_2862            |  16|   0|   16|          0|
+    |tagger_input_142_reg_2867            |  16|   0|   16|          0|
+    |tagger_input_143_reg_2872            |  16|   0|   16|          0|
+    |tagger_input_144_reg_2877            |  16|   0|   16|          0|
+    |tagger_input_145_reg_2882            |  16|   0|   16|          0|
+    |tagger_input_146_reg_2887            |  16|   0|   16|          0|
+    |tagger_input_147_reg_2892            |  16|   0|   16|          0|
+    |tagger_input_148_reg_2897            |  16|   0|   16|          0|
+    |tagger_input_149_reg_2902            |  16|   0|   16|          0|
+    |tagger_input_14_reg_2227             |  16|   0|   16|          0|
+    |tagger_input_150_reg_2907            |  16|   0|   16|          0|
+    |tagger_input_151_reg_2912            |  16|   0|   16|          0|
+    |tagger_input_152_reg_2917            |  16|   0|   16|          0|
+    |tagger_input_153_reg_2922            |  16|   0|   16|          0|
+    |tagger_input_154_reg_2927            |  16|   0|   16|          0|
+    |tagger_input_155_reg_2932            |  16|   0|   16|          0|
+    |tagger_input_156_reg_2937            |  16|   0|   16|          0|
+    |tagger_input_157_reg_2942            |  16|   0|   16|          0|
+    |tagger_input_158_reg_2947            |  16|   0|   16|          0|
+    |tagger_input_159_reg_2952            |  16|   0|   16|          0|
+    |tagger_input_15_reg_2232             |  16|   0|   16|          0|
+    |tagger_input_160_reg_2957            |  16|   0|   16|          0|
+    |tagger_input_161_reg_2962            |  16|   0|   16|          0|
+    |tagger_input_162_reg_2967            |  16|   0|   16|          0|
+    |tagger_input_163_reg_2972            |  16|   0|   16|          0|
+    |tagger_input_164_reg_2977            |  16|   0|   16|          0|
+    |tagger_input_165_reg_2982            |  16|   0|   16|          0|
+    |tagger_input_166_reg_2987            |  16|   0|   16|          0|
+    |tagger_input_167_reg_2992            |  16|   0|   16|          0|
+    |tagger_input_168_reg_2997            |  16|   0|   16|          0|
+    |tagger_input_169_reg_3002            |  16|   0|   16|          0|
+    |tagger_input_16_reg_2237             |  16|   0|   16|          0|
+    |tagger_input_170_reg_3007            |  16|   0|   16|          0|
+    |tagger_input_171_reg_3012            |  16|   0|   16|          0|
+    |tagger_input_172_reg_3017            |  16|   0|   16|          0|
+    |tagger_input_173_reg_3022            |  16|   0|   16|          0|
+    |tagger_input_174_reg_3027            |  16|   0|   16|          0|
+    |tagger_input_175_reg_3032            |  16|   0|   16|          0|
+    |tagger_input_176_reg_3037            |  16|   0|   16|          0|
+    |tagger_input_177_reg_3042            |  16|   0|   16|          0|
+    |tagger_input_178_reg_3047            |  16|   0|   16|          0|
+    |tagger_input_179_reg_3052            |  16|   0|   16|          0|
+    |tagger_input_17_reg_2242             |  16|   0|   16|          0|
+    |tagger_input_180_reg_3057            |  16|   0|   16|          0|
+    |tagger_input_181_reg_3062            |  16|   0|   16|          0|
+    |tagger_input_182_reg_3067            |  16|   0|   16|          0|
+    |tagger_input_183_reg_3072            |  16|   0|   16|          0|
+    |tagger_input_184_reg_3077            |  16|   0|   16|          0|
+    |tagger_input_185_reg_3082            |  16|   0|   16|          0|
+    |tagger_input_186_reg_3087            |  16|   0|   16|          0|
+    |tagger_input_187_reg_3092            |  16|   0|   16|          0|
+    |tagger_input_188_reg_3097            |  16|   0|   16|          0|
+    |tagger_input_189_reg_3102            |  16|   0|   16|          0|
+    |tagger_input_18_reg_2247             |  16|   0|   16|          0|
+    |tagger_input_190_reg_3107            |  16|   0|   16|          0|
+    |tagger_input_191_reg_3112            |  16|   0|   16|          0|
+    |tagger_input_192_reg_3117            |  16|   0|   16|          0|
+    |tagger_input_193_reg_3122            |  16|   0|   16|          0|
+    |tagger_input_194_reg_3127            |  16|   0|   16|          0|
+    |tagger_input_195_reg_3132            |  16|   0|   16|          0|
+    |tagger_input_196_reg_3137            |  16|   0|   16|          0|
+    |tagger_input_197_reg_3142            |  16|   0|   16|          0|
+    |tagger_input_198_reg_3147            |  16|   0|   16|          0|
+    |tagger_input_199_reg_3152            |  16|   0|   16|          0|
+    |tagger_input_19_reg_2252             |  16|   0|   16|          0|
+    |tagger_input_1_reg_2157              |  16|   0|   16|          0|
+    |tagger_input_200_reg_3157            |  16|   0|   16|          0|
+    |tagger_input_201_reg_3162            |  16|   0|   16|          0|
+    |tagger_input_202_reg_3167            |  16|   0|   16|          0|
+    |tagger_input_203_reg_3172            |  16|   0|   16|          0|
+    |tagger_input_204_reg_3177            |  16|   0|   16|          0|
+    |tagger_input_205_reg_3182            |  16|   0|   16|          0|
+    |tagger_input_206_reg_3187            |  16|   0|   16|          0|
+    |tagger_input_207_reg_3192            |  16|   0|   16|          0|
+    |tagger_input_208_reg_3197            |  16|   0|   16|          0|
+    |tagger_input_209_reg_3202            |  16|   0|   16|          0|
+    |tagger_input_20_reg_2257             |  16|   0|   16|          0|
+    |tagger_input_210_reg_3207            |  16|   0|   16|          0|
+    |tagger_input_211_reg_3212            |  16|   0|   16|          0|
+    |tagger_input_212_reg_3217            |  16|   0|   16|          0|
+    |tagger_input_213_reg_3222            |  16|   0|   16|          0|
+    |tagger_input_214_reg_3227            |  16|   0|   16|          0|
+    |tagger_input_215_reg_3232            |  16|   0|   16|          0|
+    |tagger_input_216_reg_3237            |  16|   0|   16|          0|
+    |tagger_input_217_reg_3242            |  16|   0|   16|          0|
+    |tagger_input_218_reg_3247            |  16|   0|   16|          0|
+    |tagger_input_219_reg_3252            |  16|   0|   16|          0|
+    |tagger_input_21_reg_2262             |  16|   0|   16|          0|
+    |tagger_input_220_reg_3257            |  16|   0|   16|          0|
+    |tagger_input_221_reg_3262            |  16|   0|   16|          0|
+    |tagger_input_222_reg_3267            |  16|   0|   16|          0|
+    |tagger_input_223_reg_3272            |  16|   0|   16|          0|
+    |tagger_input_224_reg_3277            |  16|   0|   16|          0|
+    |tagger_input_225_reg_3282            |  16|   0|   16|          0|
+    |tagger_input_226_reg_3287            |  16|   0|   16|          0|
+    |tagger_input_227_reg_3292            |  16|   0|   16|          0|
+    |tagger_input_228_reg_3297            |  16|   0|   16|          0|
+    |tagger_input_229_reg_3302            |  16|   0|   16|          0|
+    |tagger_input_22_reg_2267             |  16|   0|   16|          0|
+    |tagger_input_230_reg_3307            |  16|   0|   16|          0|
+    |tagger_input_231_reg_3312            |  16|   0|   16|          0|
+    |tagger_input_232_reg_3317            |  16|   0|   16|          0|
+    |tagger_input_233_reg_3322            |  16|   0|   16|          0|
+    |tagger_input_234_reg_3327            |  16|   0|   16|          0|
+    |tagger_input_235_reg_3332            |  16|   0|   16|          0|
+    |tagger_input_236_reg_3337            |  16|   0|   16|          0|
+    |tagger_input_237_reg_3342            |  16|   0|   16|          0|
+    |tagger_input_238_reg_3347            |  16|   0|   16|          0|
+    |tagger_input_239_reg_3352            |  16|   0|   16|          0|
+    |tagger_input_23_reg_2272             |  16|   0|   16|          0|
+    |tagger_input_240_reg_3357            |  16|   0|   16|          0|
+    |tagger_input_241_reg_3362            |  16|   0|   16|          0|
+    |tagger_input_242_reg_3367            |  16|   0|   16|          0|
+    |tagger_input_243_reg_3372            |  16|   0|   16|          0|
+    |tagger_input_244_reg_3377            |  16|   0|   16|          0|
+    |tagger_input_245_reg_3382            |  16|   0|   16|          0|
+    |tagger_input_246_reg_3387            |  16|   0|   16|          0|
+    |tagger_input_247_reg_3392            |  16|   0|   16|          0|
+    |tagger_input_248_reg_3397            |  16|   0|   16|          0|
+    |tagger_input_249_reg_3402            |  16|   0|   16|          0|
+    |tagger_input_24_reg_2277             |  16|   0|   16|          0|
+    |tagger_input_250_reg_3407            |  16|   0|   16|          0|
+    |tagger_input_251_reg_3412            |  16|   0|   16|          0|
+    |tagger_input_252_reg_3417            |  16|   0|   16|          0|
+    |tagger_input_253_reg_3422            |  16|   0|   16|          0|
+    |tagger_input_254_reg_3427            |  16|   0|   16|          0|
+    |tagger_input_255_reg_3432            |  16|   0|   16|          0|
+    |tagger_input_256_reg_3437            |  16|   0|   16|          0|
+    |tagger_input_257_reg_3442            |  16|   0|   16|          0|
+    |tagger_input_258_reg_3447            |  16|   0|   16|          0|
+    |tagger_input_259_reg_3452            |  16|   0|   16|          0|
+    |tagger_input_25_reg_2282             |  16|   0|   16|          0|
+    |tagger_input_260_reg_3457            |  16|   0|   16|          0|
+    |tagger_input_261_reg_3462            |  16|   0|   16|          0|
+    |tagger_input_262_reg_3467            |  16|   0|   16|          0|
+    |tagger_input_263_reg_3472            |  16|   0|   16|          0|
+    |tagger_input_264_reg_3477            |  16|   0|   16|          0|
+    |tagger_input_265_reg_3482            |  16|   0|   16|          0|
+    |tagger_input_266_reg_3487            |  16|   0|   16|          0|
+    |tagger_input_267_reg_3492            |  16|   0|   16|          0|
+    |tagger_input_268_reg_3497            |  16|   0|   16|          0|
+    |tagger_input_269_reg_3502            |  16|   0|   16|          0|
+    |tagger_input_26_reg_2287             |  16|   0|   16|          0|
+    |tagger_input_270_reg_3507            |  16|   0|   16|          0|
+    |tagger_input_271_reg_3512            |  16|   0|   16|          0|
+    |tagger_input_272_reg_3517            |  16|   0|   16|          0|
+    |tagger_input_273_reg_3522            |  16|   0|   16|          0|
+    |tagger_input_274_reg_3527            |  16|   0|   16|          0|
+    |tagger_input_275_reg_3532            |  16|   0|   16|          0|
+    |tagger_input_276_reg_3537            |  16|   0|   16|          0|
+    |tagger_input_277_reg_3542            |  16|   0|   16|          0|
+    |tagger_input_278_reg_3547            |  16|   0|   16|          0|
+    |tagger_input_279_reg_3552            |  16|   0|   16|          0|
+    |tagger_input_27_reg_2292             |  16|   0|   16|          0|
+    |tagger_input_280_reg_3557            |  16|   0|   16|          0|
+    |tagger_input_281_reg_3562            |  16|   0|   16|          0|
+    |tagger_input_282_reg_3567            |  16|   0|   16|          0|
+    |tagger_input_283_reg_3572            |  16|   0|   16|          0|
+    |tagger_input_284_reg_3577            |  16|   0|   16|          0|
+    |tagger_input_285_reg_3582            |  16|   0|   16|          0|
+    |tagger_input_286_reg_3587            |  16|   0|   16|          0|
+    |tagger_input_287_reg_3592            |  16|   0|   16|          0|
+    |tagger_input_288_reg_3597            |  16|   0|   16|          0|
+    |tagger_input_289_reg_3602            |  16|   0|   16|          0|
+    |tagger_input_28_reg_2297             |  16|   0|   16|          0|
+    |tagger_input_290_reg_3607            |  16|   0|   16|          0|
+    |tagger_input_291_reg_3612            |  16|   0|   16|          0|
+    |tagger_input_292_reg_3617            |  16|   0|   16|          0|
+    |tagger_input_293_reg_3622            |  16|   0|   16|          0|
+    |tagger_input_294_reg_3627            |  16|   0|   16|          0|
+    |tagger_input_295_reg_3632            |  16|   0|   16|          0|
+    |tagger_input_296_reg_3637            |  16|   0|   16|          0|
+    |tagger_input_297_reg_3642            |  16|   0|   16|          0|
+    |tagger_input_298_reg_3647            |  16|   0|   16|          0|
+    |tagger_input_299_reg_3652            |  16|   0|   16|          0|
+    |tagger_input_29_reg_2302             |  16|   0|   16|          0|
+    |tagger_input_2_reg_2162              |  16|   0|   16|          0|
+    |tagger_input_300_reg_3657            |  16|   0|   16|          0|
+    |tagger_input_301_reg_3662            |  16|   0|   16|          0|
+    |tagger_input_302_reg_3667            |  16|   0|   16|          0|
+    |tagger_input_303_reg_3672            |  16|   0|   16|          0|
+    |tagger_input_304_reg_3677            |  16|   0|   16|          0|
+    |tagger_input_305_reg_3682            |  16|   0|   16|          0|
+    |tagger_input_306_reg_3687            |  16|   0|   16|          0|
+    |tagger_input_307_reg_3692            |  16|   0|   16|          0|
+    |tagger_input_308_reg_3697            |  16|   0|   16|          0|
+    |tagger_input_309_reg_3702            |  16|   0|   16|          0|
+    |tagger_input_30_reg_2307             |  16|   0|   16|          0|
+    |tagger_input_310_reg_3707            |  16|   0|   16|          0|
+    |tagger_input_311_reg_3712            |  16|   0|   16|          0|
+    |tagger_input_312_reg_3717            |  16|   0|   16|          0|
+    |tagger_input_313_reg_3722            |  16|   0|   16|          0|
+    |tagger_input_314_reg_3727            |  16|   0|   16|          0|
+    |tagger_input_315_reg_3732            |  16|   0|   16|          0|
+    |tagger_input_316_reg_3737            |  16|   0|   16|          0|
+    |tagger_input_317_reg_3742            |  16|   0|   16|          0|
+    |tagger_input_318_reg_3747            |  16|   0|   16|          0|
+    |tagger_input_319_reg_2202            |  16|   0|   16|          0|
+    |tagger_input_31_reg_2312             |  16|   0|   16|          0|
+    |tagger_input_32_reg_2317             |  16|   0|   16|          0|
+    |tagger_input_33_reg_2322             |  16|   0|   16|          0|
+    |tagger_input_34_reg_2327             |  16|   0|   16|          0|
+    |tagger_input_35_reg_2332             |  16|   0|   16|          0|
+    |tagger_input_36_reg_2337             |  16|   0|   16|          0|
+    |tagger_input_37_reg_2342             |  16|   0|   16|          0|
+    |tagger_input_38_reg_2347             |  16|   0|   16|          0|
+    |tagger_input_39_reg_2352             |  16|   0|   16|          0|
+    |tagger_input_3_reg_2167              |  16|   0|   16|          0|
+    |tagger_input_40_reg_2357             |  16|   0|   16|          0|
+    |tagger_input_41_reg_2362             |  16|   0|   16|          0|
+    |tagger_input_42_reg_2367             |  16|   0|   16|          0|
+    |tagger_input_43_reg_2372             |  16|   0|   16|          0|
+    |tagger_input_44_reg_2377             |  16|   0|   16|          0|
+    |tagger_input_45_reg_2382             |  16|   0|   16|          0|
+    |tagger_input_46_reg_2387             |  16|   0|   16|          0|
+    |tagger_input_47_reg_2392             |  16|   0|   16|          0|
+    |tagger_input_48_reg_2397             |  16|   0|   16|          0|
+    |tagger_input_49_reg_2402             |  16|   0|   16|          0|
+    |tagger_input_4_reg_2172              |  16|   0|   16|          0|
+    |tagger_input_50_reg_2407             |  16|   0|   16|          0|
+    |tagger_input_51_reg_2412             |  16|   0|   16|          0|
+    |tagger_input_52_reg_2417             |  16|   0|   16|          0|
+    |tagger_input_53_reg_2422             |  16|   0|   16|          0|
+    |tagger_input_54_reg_2427             |  16|   0|   16|          0|
+    |tagger_input_55_reg_2432             |  16|   0|   16|          0|
+    |tagger_input_56_reg_2437             |  16|   0|   16|          0|
+    |tagger_input_57_reg_2442             |  16|   0|   16|          0|
+    |tagger_input_58_reg_2447             |  16|   0|   16|          0|
+    |tagger_input_59_reg_2452             |  16|   0|   16|          0|
+    |tagger_input_5_reg_2177              |  16|   0|   16|          0|
+    |tagger_input_60_reg_2457             |  16|   0|   16|          0|
+    |tagger_input_61_reg_2462             |  16|   0|   16|          0|
+    |tagger_input_62_reg_2467             |  16|   0|   16|          0|
+    |tagger_input_63_reg_2472             |  16|   0|   16|          0|
+    |tagger_input_64_reg_2477             |  16|   0|   16|          0|
+    |tagger_input_65_reg_2482             |  16|   0|   16|          0|
+    |tagger_input_66_reg_2487             |  16|   0|   16|          0|
+    |tagger_input_67_reg_2492             |  16|   0|   16|          0|
+    |tagger_input_68_reg_2497             |  16|   0|   16|          0|
+    |tagger_input_69_reg_2502             |  16|   0|   16|          0|
+    |tagger_input_6_reg_2182              |  16|   0|   16|          0|
+    |tagger_input_70_reg_2507             |  16|   0|   16|          0|
+    |tagger_input_71_reg_2512             |  16|   0|   16|          0|
+    |tagger_input_72_reg_2517             |  16|   0|   16|          0|
+    |tagger_input_73_reg_2522             |  16|   0|   16|          0|
+    |tagger_input_74_reg_2527             |  16|   0|   16|          0|
+    |tagger_input_75_reg_2532             |  16|   0|   16|          0|
+    |tagger_input_76_reg_2537             |  16|   0|   16|          0|
+    |tagger_input_77_reg_2542             |  16|   0|   16|          0|
+    |tagger_input_78_reg_2547             |  16|   0|   16|          0|
+    |tagger_input_79_reg_2552             |  16|   0|   16|          0|
+    |tagger_input_7_reg_2187              |  16|   0|   16|          0|
+    |tagger_input_80_reg_2557             |  16|   0|   16|          0|
+    |tagger_input_81_reg_2562             |  16|   0|   16|          0|
+    |tagger_input_82_reg_2567             |  16|   0|   16|          0|
+    |tagger_input_83_reg_2572             |  16|   0|   16|          0|
+    |tagger_input_84_reg_2577             |  16|   0|   16|          0|
+    |tagger_input_85_reg_2582             |  16|   0|   16|          0|
+    |tagger_input_86_reg_2587             |  16|   0|   16|          0|
+    |tagger_input_87_reg_2592             |  16|   0|   16|          0|
+    |tagger_input_88_reg_2597             |  16|   0|   16|          0|
+    |tagger_input_89_reg_2602             |  16|   0|   16|          0|
+    |tagger_input_8_reg_2192              |  16|   0|   16|          0|
+    |tagger_input_90_reg_2607             |  16|   0|   16|          0|
+    |tagger_input_91_reg_2612             |  16|   0|   16|          0|
+    |tagger_input_92_reg_2617             |  16|   0|   16|          0|
+    |tagger_input_93_reg_2622             |  16|   0|   16|          0|
+    |tagger_input_94_reg_2627             |  16|   0|   16|          0|
+    |tagger_input_95_reg_2632             |  16|   0|   16|          0|
+    |tagger_input_96_reg_2637             |  16|   0|   16|          0|
+    |tagger_input_97_reg_2642             |  16|   0|   16|          0|
+    |tagger_input_98_reg_2647             |  16|   0|   16|          0|
+    |tagger_input_99_reg_2652             |  16|   0|   16|          0|
+    |tagger_input_9_reg_2197              |  16|   0|   16|          0|
+    |tagger_input_reg_2152                |  16|   0|   16|          0|
+    |tmp4_reg_3780                        |   6|   0|    6|          0|
+    |tmp_5944_reg_3769                    |   1|   0|    1|          0|
+    |tmp_5945_reg_3775                    |   1|   0|    1|          0|
+    |tmp_reg_3757                         |   1|   0|    1|          0|
+    |token_d_read_reg_2147                |  15|   0|   15|          0|
+    |trunc_ln_reg_3764                    |   8|   0|    8|          0|
+    |token_d_read_reg_2147                |  64|  32|   15|          0|
     +-------------------------------------+----+----+-----+-----------+
-    |Total                                |5534|  32| 5485|          0|
+    |Total                                |5293|  32| 5244|          0|
     +-------------------------------------+----+----+-----+-----------+
 
 

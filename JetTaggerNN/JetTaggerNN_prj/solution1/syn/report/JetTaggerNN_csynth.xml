@@ -10,7 +10,7 @@
 <Part>xcvu9p-flga2104-2L-e</Part>
 <TopModelName>JetTaggerNN</TopModelName>
 <TargetClockPeriod>2.80</TargetClockPeriod>
-<ClockUncertainty>0.35</ClockUncertainty>
+<ClockUncertainty>0.76</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,38 +18,38 @@
 <PipelineType>dataflow</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>2.435</EstimatedClockPeriod>
+<EstimatedClockPeriod>2.025</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>78</Best-caseLatency>
-<Average-caseLatency>78</Average-caseLatency>
-<Worst-caseLatency>80</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.218 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.218 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.224 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>86</Best-caseLatency>
+<Average-caseLatency>86</Average-caseLatency>
+<Worst-caseLatency>88</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.241 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.241 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.246 us</Worst-caseRealTimeLatency>
 <DataflowPipelineThroughput>
 <range>
-<min>23</min>
-<max>24</max>
+<min>24</min>
+<max>25</max>
 </range>
 </DataflowPipelineThroughput>
-<Interval-min>23</Interval-min>
-<Interval-max>24</Interval-max>
+<Interval-min>24</Interval-min>
+<Interval-max>25</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/JetTaggerNN.cpp:50</SourceLocation>
+<SourceLocation>firmware/JetTaggerNN.cpp:49</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>10</BRAM_18K>
-<DSP>667</DSP>
-<FF>197198</FF>
-<LUT>370104</LUT>
+<BRAM_18K>60</BRAM_18K>
+<DSP>360</DSP>
+<FF>229606</FF>
+<LUT>394332</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -70,7 +70,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>5376</Bits>
+<Bits>5040</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -87,8 +87,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>layer22_out</name>
-<Object>layer22_out</Object>
+<name>layer23_out</name>
+<Object>layer23_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -99,8 +99,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>layer22_out_ap_vld</name>
-<Object>layer22_out</Object>
+<name>layer23_out_ap_vld</name>
+<Object>layer23_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -118,7 +118,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -142,7 +142,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -166,7 +166,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -190,7 +190,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -214,7 +214,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -238,7 +238,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -262,7 +262,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -286,7 +286,7 @@
 <IOProtocol>ap_vld</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>16</Bits>
+<Bits>8</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
